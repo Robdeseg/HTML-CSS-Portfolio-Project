@@ -62,14 +62,12 @@ animation-fill-mode: forwards;
     font-size: 200%;
     text-align: center;
     vertical-align: middle;
-    padding-bottom: 30%;
-    padding-top: 20%;
-
+    padding: 20% 0 30% 0
 }
 
-#main-menu-photo {
-    vertical-align: middle;
-    padding-bottom: 30%;
-    padding-top: 20%;
+body {
+    height: 600px;
+    width: 100%;
+    background-image: url("../images/2-elephant-dust-cloud.jpg") no repeat center center;
 }
 
