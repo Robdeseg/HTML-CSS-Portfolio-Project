@@ -1,13 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Lato:wght@300&family=Oswald&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
     font-family: 'Cormorant Garamond', serif, 'Times New Roman';
     background-color: black;
     color: #958C80;
 }
 
+a {
+    text-decoration: none;
+    color: #958C80;
+}
+
+a:visited {
+    color: #958C80
+}
+
 a:hover {
-    background-color: yellow;   
+    border-bottom: 1px solid #958C80;
 }
 
 #title {
@@ -16,7 +31,8 @@ a:hover {
     text-align: center;
     vertical-align: middle;
     padding-bottom: 25%;
-    padding-top: 25%;
+    padding-top: 27%;
+    
 
     /*  animates zoom effect on loading page */
 animation-name: title-zoom;
@@ -24,19 +40,9 @@ animation-duration: 5s;
 animation-fill-mode: forwards;
 }
 
-#title > a {
-    text-decoration: none;
-}
-
-#title a:visited {
-    color: #958C80
-}
-
 #title-faded {
     opacity: 0.7;
 }
-
-
 
 /* creates the zoom effect of title */
 
@@ -48,4 +54,17 @@ animation-fill-mode: forwards;
         transform: scale(1.1);
     }
 }
+
+/*  main menu styling */
+
+.main-menu-items {
+    letter-spacing: 4px;
+    font-size: 200%;
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 30%;
+    padding-top: 20%;
+
+}
+
 
