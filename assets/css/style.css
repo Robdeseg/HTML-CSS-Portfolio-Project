@@ -6,6 +6,10 @@ body {
     color: #958C80;
 }
 
+a:hover {
+    background-color: yellow;   
+}
+
 #title {
     letter-spacing: 4px;
     font-size: 200%;
@@ -22,11 +26,6 @@ animation-fill-mode: forwards;
 
 #title > a {
     text-decoration: none;
-}
-
-#title a:hover {
-    font-weight: bolder;
-
 }
 
 #title a:visited {
