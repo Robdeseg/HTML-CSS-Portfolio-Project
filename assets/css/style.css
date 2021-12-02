@@ -22,7 +22,7 @@ a:visited {
 }
 
 a:hover {
-    border-bottom: 1px solid #958C80;
+    color: #e4d6c0;
 }
 
 #title {
@@ -31,7 +31,7 @@ a:hover {
     text-align: center;
     vertical-align: middle;
     padding-bottom: 25%;
-    padding-top: 27%;
+    padding-top: 25%;
     
 
     /*  animates zoom effect on loading page */
@@ -67,4 +67,9 @@ animation-fill-mode: forwards;
 
 }
 
+#main-menu-photo {
+    vertical-align: middle;
+    padding-bottom: 30%;
+    padding-top: 20%;
+}
 
