@@ -13,17 +13,40 @@ body {
     vertical-align: middle;
     padding-bottom: 25%;
     padding-top: 25%;
+
+    /*  animates zoom effect on loading page */
+animation-name: title-zoom;
+animation-duration: 5s;
+animation-fill-mode: forwards;
 }
 
 #title > a {
     text-decoration: none;
 }
 
-#title > a:hover {
-    border-bottom: 1px solid #958C80;
+#title a:hover {
+    font-weight: bolder;
+
 }
 
 #title a:visited {
     color: #958C80
+}
+
+#title-faded {
+    opacity: 0.7;
+}
+
+
+
+/* creates the zoom effect of title */
+
+@keyframes title-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
 
