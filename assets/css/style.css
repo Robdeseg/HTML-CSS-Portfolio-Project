@@ -58,16 +58,19 @@ animation-fill-mode: forwards;
 /*  main menu styling */
 
 #main-menu {
-    height: 600px;
-    margin-bottom: 120px;
+    padding-top: 20%;
+    height: 500px;
+    margin: auto;
 }
 
 .main-menu-items {
+    list-style-type: none;
     letter-spacing: 4px;
     font-size: 200%;
     text-align: center;
     vertical-align: middle;
-    padding: 20% 0 30% 0
+    height: 400px;
+    margin-top: 10%
 }
 
 /*  footer styling */
@@ -193,7 +196,7 @@ footer ul {
 
 #desegundo-design-blurb {
 
-    margin: 100px 250px 150px 250px
+    margin: 200px 250px 75px 250px
 
 }
 
