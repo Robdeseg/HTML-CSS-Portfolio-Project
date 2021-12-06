@@ -118,6 +118,7 @@ footer ul {
     border-color: #958C80;
     padding: 5px;
     margin-top: 5px;
+    font-family: 'Cormorant Garamond', serif, 'Times New Roman';
 }
 
 #submit {
@@ -128,5 +129,76 @@ footer ul {
     padding: 5px;
     margin-top: 10px;
     border-radius: 12px;
+    font-family: 'Cormorant Garamond', serif, 'Times New Roman';
+}
+
+#submit:hover {
+    color: #e4d6c0;
+}
+
+#email-2 {
+    background-color: black;
+    color: #958C80;
+    border: .5px solid;
+    border-color: #958C80;
+    padding: 5px;
+    margin-top: 5px;
+    font-family: 'Cormorant Garamond', serif, 'Times New Roman';
+    font-size: 105%;
+}
+
+#submit-2 {
+    background-color: black;
+    color: #958C80;
+    border: 1px solid;
+    border-color: #958C80;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 12px;
+    font-family: 'Cormorant Garamond', serif, 'Times New Roman';
+    font-size: 105%;
+}
+
+#submit-2:hover {
+    color: #e4d6c0;
+}
+
+#fname {
+    background-color: black;
+    color: #958C80;
+    border: .5px solid;
+    border-color: #958C80;
+    padding: 5px;
+    margin-top: 5px;
+    font-family: 'Cormorant Garamond', serif, 'Times New Roman';
+    font-size: 105%;
+}
+
+#lname {
+    background-color: black;
+    color: #958C80;
+    border: .5px solid;
+    border-color: #958C80;
+    padding: 5px;
+    margin-top: 5px;
+    font-family: 'Cormorant Garamond', serif, 'Times New Roman';
+    font-size: 105%;
+}
+
+#desegundo-design-contact {
+    vertical-align: middle;
+    margin: auto;
+    width: 600px;
+}
+
+#desegundo-design-blurb {
+
+    margin: 100px 250px 150px 250px
+
+}
+
+#services-required {
+    font: 105%;
+    margin-top: 5px;
 }
 
