@@ -57,6 +57,10 @@ animation-fill-mode: forwards;
 
 /*  main menu styling */
 
+#main-menu {
+    height: 300px;
+}
+
 .main-menu-items {
     letter-spacing: 4px;
     font-size: 200%;
@@ -68,16 +72,29 @@ animation-fill-mode: forwards;
 /*  footer styling */
 
 footer {
-    height: 200px;
+    padding: 0px 100px 0px 100px;
 }
 
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 1%;
-    color: #958C80
+footer ul {
+    width: 33%;
+    height: 300px;
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
 }
 
-.social-networks i:hover {
-    color: #e4d6c0;
+.leftside {
+    float: left;
+    width: 25%;
 }
+
+.middle {
+    float: left;
+    width: 50%;
+}
+
+.rightside {
+    float: right;
+    width: 25%;
+}
+
