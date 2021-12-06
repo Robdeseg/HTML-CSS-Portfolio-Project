@@ -65,9 +65,19 @@ animation-fill-mode: forwards;
     padding: 20% 0 30% 0
 }
 
-body {
-    height: 600px;
-    width: 100%;
-    background-image: url("../images/2-elephant-dust-cloud.jpg") no repeat center center;
+/*  footer styling */
+
+footer {
+    height: 200px;
 }
 
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 1%;
+    color: #958C80
+}
+
+.social-networks i:hover {
+    color: #e4d6c0;
+}
