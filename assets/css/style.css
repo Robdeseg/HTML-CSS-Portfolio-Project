@@ -58,15 +58,16 @@ animation-fill-mode: forwards;
 /*  main menu styling */
 
 #main-menu {
-    padding-top: 20%;
-    height: 500px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    height: 450px;
     margin: auto;
 }
 
 .main-menu-items {
     list-style-type: none;
     letter-spacing: 4px;
-    font-size: 200%;
+    font-size: 215%;
     text-align: center;
     vertical-align: middle;
     height: 400px;
@@ -205,3 +206,36 @@ footer ul {
     margin-top: 5px;
 }
 
+#header-menu {
+    font-size: 125%;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#header-menu a {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.current {
+    text-decoration: underline;
+}
+
+
+#introduction-blurb {
+    margin-top: 200px;
+    
+}
+
+
+
+/*
+use this when making header menu responsive
+
+#header-menu li {
+    text-align: center;
+    list-style-type: none;
+    margin: 10px 30px 10px 30px
+}
+*/
