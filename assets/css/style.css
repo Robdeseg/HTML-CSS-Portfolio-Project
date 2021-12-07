@@ -259,7 +259,19 @@ footer ul {
 
     /*  selected works styling */
 
+    #selected-works {
+   
+        padding-top: 5%;
+        padding-bottom: 13%;
+        height: 450px;
+        margin: auto;
+    }
 
+#selected-works-images {
+
+    margin: 150px 250px 75px 250px
+    
+    }
 
 
 /*
