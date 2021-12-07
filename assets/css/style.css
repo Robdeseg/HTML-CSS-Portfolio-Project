@@ -30,7 +30,7 @@ a:hover {
     font-size: 200%;
     text-align: center;
     vertical-align: middle;
-    padding-bottom: 10%;
+    padding-bottom: 12%;
     padding-top: 32%;
     
 
@@ -103,6 +103,14 @@ footer ul {
 
 .middle li {
     padding-bottom: 15px 
+}
+
+.rightside li {
+    padding: 4px;
+}
+
+.leftside li {
+    padding: 4px;
 }
 
 
