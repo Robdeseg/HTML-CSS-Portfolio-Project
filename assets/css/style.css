@@ -33,10 +33,9 @@ a:hover {
     padding-bottom: 10%;
     padding-top: 32%;
     
-    
-    
 
-    /*  animates zoom effect on loading page */
+/*  animates zoom effect on loading page */
+
 animation-name: title-zoom;
 animation-duration: 5s;
 animation-fill-mode: forwards;
@@ -57,27 +56,7 @@ animation-fill-mode: forwards;
     }
 }
 
-/*  main menu styling */
-
-/*  
-#main-menu {
-    padding-top: 8%;
-    padding-bottom: 10%;
-    height: 450px;
-    margin: auto;
-    background-color: transparent;
-}
-
-.main-menu-items {
-    list-style-type: none;
-    letter-spacing: 4px;
-    font-size: 215%;
-    text-align: center;
-    vertical-align: middle;
-    height: 400px;
-    margin-top: 10%;
-}
-*/
+/*  main menu image styling */
 
 #main-menu-image {
     display: block;
@@ -96,7 +75,6 @@ footer {
     overflow: hidden;
     height: 300px;
     position: sticky;
-
    
 }
 
@@ -126,6 +104,7 @@ footer ul {
 .middle li {
     padding-bottom: 15px 
 }
+
 
 #desegundo-design {    
    opacity: .6;
@@ -157,6 +136,8 @@ footer ul {
 #submit:hover {
     color: #e4d6c0;
 }
+
+/*  de Segundo Design contact form styling */
 
 #email-2 {
     background-color: black;
@@ -224,6 +205,8 @@ footer ul {
     margin-top: 5px;
 }
 
+/*  header styling */
+
 #header-menu {
     font-size: 125%;
     letter-spacing: 4px;
@@ -245,7 +228,6 @@ footer ul {
 #return-to-home {
     background-color: black;
     color: #958C80;
-    
     border-color: #958C80;
     padding: 5px;
     margin-top: 10px;
@@ -258,6 +240,8 @@ footer ul {
 .current {
     text-decoration: underline;
 }
+
+/*  introdcution styling */
 
 #introduction {
    
@@ -273,6 +257,7 @@ footer ul {
     
     }
 
+    /*  selected works styling */
 
 
 
