@@ -199,7 +199,7 @@ footer ul {
 
 #desegundo-design-blurb {
 
-    margin: 200px 250px 75px 250px
+    margin: 150px 250px 75px 250px
 
 }
 
@@ -219,6 +219,25 @@ footer ul {
     padding-left: 2em;
     padding-right: 2em;
 }
+
+
+#back-to-desphotog {
+    text-align: center;
+    margin-top: 80px;
+}
+
+#return-to-home {
+    background-color: black;
+    color: #958C80;
+    
+    border-color: #958C80;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 12px;
+    font-family: 'Cormorant Garamond', serif, 'Times New Roman';
+    font-size: 105%;
+}
+
 
 .current {
     text-decoration: underline;
