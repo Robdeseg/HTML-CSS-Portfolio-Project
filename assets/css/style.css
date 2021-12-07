@@ -59,11 +59,13 @@ animation-fill-mode: forwards;
 
 /*  main menu styling */
 
+/*  
 #main-menu {
     padding-top: 8%;
     padding-bottom: 10%;
     height: 450px;
     margin: auto;
+    background-color: transparent;
 }
 
 .main-menu-items {
@@ -73,7 +75,18 @@ animation-fill-mode: forwards;
     text-align: center;
     vertical-align: middle;
     height: 400px;
-    margin-top: 10%
+    margin-top: 10%;
+}
+*/
+
+#main-menu-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: auto;
+    width: 977px;
 }
 
 /*  footer styling */
