@@ -60,7 +60,7 @@ animation-fill-mode: forwards;
 /*  main menu styling */
 
 #main-menu {
-    padding-top: 10%;
+    padding-top: 8%;
     padding-bottom: 10%;
     height: 450px;
     margin: auto;
@@ -82,6 +82,7 @@ footer {
     padding: 0px 50px 0px 50px;
     overflow: hidden;
     height: 300px;
+
    
 }
 
@@ -109,11 +110,12 @@ footer ul {
 }
 
 .middle li {
-    padding-bottom: 20px 
+    padding-bottom: 15px 
 }
 
 #desegundo-design {    
    opacity: .6;
+   
 }
 
 #email {
@@ -245,9 +247,15 @@ footer ul {
 
 
 #introduction-blurb {
-    margin-top: 200px;
-    
-}
+
+        
+        padding-top: 8%;
+        padding-bottom: 10%;
+        height: 450px;
+        margin: auto;
+    }
+
+
 
 
 
