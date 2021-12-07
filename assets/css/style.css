@@ -30,8 +30,8 @@ a:hover {
     font-size: 200%;
     text-align: center;
     vertical-align: middle;
-    padding-bottom: 20%;
-    padding-top: 30%;
+    padding-bottom: 10%;
+    padding-top: 32%;
     
     
     
@@ -95,6 +95,7 @@ footer {
     padding: 0px 50px 0px 50px;
     overflow: hidden;
     height: 300px;
+    position: sticky;
 
    
 }
@@ -258,14 +259,18 @@ footer ul {
     text-decoration: underline;
 }
 
+#introduction {
+   
+        padding-top: 5%;
+        padding-bottom: 13%;
+        height: 450px;
+        margin: auto;
+    }
 
 #introduction-blurb {
 
-        
-        padding-top: 8%;
-        padding-bottom: 10%;
-        height: 450px;
-        margin: auto;
+    margin: 150px 250px 75px 250px
+    
     }
 
 
