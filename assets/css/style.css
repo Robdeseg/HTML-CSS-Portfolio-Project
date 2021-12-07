@@ -196,7 +196,7 @@ footer ul {
 
 #desegundo-design-blurb {
 
-    margin: 150px 250px 75px 250px
+    margin: 150px 250px 75px 250px;
 
 }
 
@@ -253,7 +253,7 @@ footer ul {
 
 #introduction-blurb {
 
-    margin: 150px 250px 75px 250px
+    margin: 150px 250px 75px 250px;
     
     }
 
@@ -269,10 +269,62 @@ footer ul {
 
 #selected-works-images {
 
-    margin: 150px 250px 75px 250px
+    margin: 150px 250px 75px 250px;
     
     }
 
+        /*  fine art styling */
+
+        #fine-art {
+   
+            padding-top: 5%;
+            padding-bottom: 13%;
+            height: 450px;
+            margin: auto;
+            
+        }
+    
+    #fine-art-blurb {
+    
+        margin: 150px 250px 75px 250px;
+        
+        }
+
+        /*  exhihbitions styling */
+
+        #exhibitions {
+   
+            padding-top: 5%;
+            padding-bottom: 13%;
+            height: 450px;
+            margin: auto;
+            
+        }
+    
+    #exhibition-info {
+    
+        margin: 150px 250px 75px 250px;
+      
+        
+        }
+
+         /*  exhihbitions styling */
+
+         #contact {
+   
+            padding-top: 5%;
+            padding-bottom: 13%;
+            height: 450px;
+            margin: auto;
+            
+        }
+    
+    #contact-info {
+    
+        margin: 150px 250px 75px 250px;
+      
+        
+        }
 
 /*
 use this when making header menu responsive
