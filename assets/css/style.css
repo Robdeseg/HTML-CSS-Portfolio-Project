@@ -77,9 +77,31 @@ animation-fill-mode: forwards;
 
 #centered {
     position: absolute;
-    top: 43%;
-    left: 49%;
-    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 25%;
+
+
+/* animates zoom effect on loading page */
+
+animation-name: centered-zoom;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+
+}
+
+#title-faded {
+    opacity: 0.7;
+}
+
+/* creates the zoom effect of title */
+
+@keyframes centered-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
 
 /*  footer styling */
