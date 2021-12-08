@@ -312,11 +312,12 @@ footer ul {
 
         /*  exhihbitions styling */
 
+
         #exhibitions {
-   
-            position: relative;
-            color: rgb(240, 236, 236);
+            
+            color: rgb(230, 223, 223);
             font-size: 110%;
+            position: relative;
             
         }
 
@@ -333,97 +334,43 @@ footer ul {
         }
     
         #exhibitions ul {
+            
             float: left;
             text-decoration: none;
             list-style-type: none;
-          
-        }
-
-        #leftside {
-            text-align: center;
-            position: absolute;
-            top: 145px;
-            left: 10%;
-            width: 250px;
-            height: 250px;
-            border: 1px solid #e4d6c0;
-        }
-        
-        #middle {
-            text-align: center;
-            position: absolute;
-            top: 145px;
-            left: 40%;
-            width: 250px;
-            height: 250px;
-            border: 1px solid #e4d6c0;
-        }
-        
-        #rightside {
-            text-align: center;
-            position: absolute;
-            top: 145px;
-            left: 900px;
-            width: 250px;
-            height: 250px;
-            border: 1px solid #e4d6c0;
-            
-        }
-        
-        #middle li {
-            padding-bottom: 4px 
-        }
-        
-        #rightside li {
-            padding: 4px;
-        }
-        
-        #leftside li {
-            padding: 4px;
-        }
-        
-
-    #exhibitions span {
-
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
             color: #e4d6c0;
-            background-color: rgba(0, 0, 0, 1);
+            vertical-align: middle;
             width: 20%;
-            height: 300px;
-            float: left;
-            padding: 30px 0 0 10px;
+            height: 250px;
+            padding: 30px 10px 10px 10px;
             text-align: center;
             border: 2px solid #958C80;
             box-sizing: border-box;
-    
-        }
-
-       
-/*  
-        #exhibitions {
-            background-image: url('../images/photo-gallery.jpeg');
-            background-repeat: no-repeat;
-            background-size: normal;
-            background-position: center;
-            overflow: hidden;
-            opacity: 1;
-        }
-
-        */
-        
-        #exhibitions div {
-            color: #141414;
-            width: 30%;
-            height: 300px;
-            float: center;
-            padding: 30px 0 0 10px;
-            text-align: center;
+            margin: 0 20px 20px 0;
+            bottom: 40%;
             
         }
-        
+
+        #leftside {
+
+            position: absolute;
+            
+
+        }
+
+        #middle {
+
+            position: absolute;
+            left: 50%;
+
+        }
+
+        #rightside {
+
+            position: absolute;
+            right: 0;
+        }
+
 
          /*  contact styling */
 
