@@ -86,7 +86,7 @@ animation-fill-mode: forwards;
 /*  footer styling */
 
 footer {
-    padding: 0px 50px 0px 50px;
+    padding: 0px 75px 0px 75px;
     overflow: hidden;
     height: 300px;
     position: sticky;
@@ -228,22 +228,7 @@ footer ul {
     margin-top: 5px;
 }
 
-/*  header styling */
-
-#header-menu {
-    font-size: 125%;
-    letter-spacing: 4px;
-    text-align: center;
-    margin-top: 25px;
-}
-
-#header-menu a {
-    padding-left: 2em;
-    padding-right: 2em;
-}
-
-
-#back-to-desphotog {
+#back-to-platphotog {
     text-align: center;
     margin-top: 80px;
 }
@@ -259,6 +244,19 @@ footer ul {
     font-size: 105%;
 }
 
+/*  header styling */
+
+#header-menu {
+    font-size: 125%;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#header-menu a {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
 
 .current {
     text-decoration: underline;
