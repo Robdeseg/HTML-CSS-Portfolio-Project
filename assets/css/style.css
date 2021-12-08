@@ -313,23 +313,79 @@ footer ul {
 
         /*  exhihbitions styling */
 
+        
+        #title-over-photo {
+            position: relative;
+            color: rgb(240, 236, 236);
+            font-size: 110%;
+            
+        }
+        
+
         #exhibitions {
    
-            padding-top: 5%;
-            padding-bottom: 13%;
-            height: 450px;
-            margin: auto;
+            position: relative;
+            color: rgb(240, 236, 236);
+            font-size: 110%;
             
         }
     
-    #exhibition-info {
     
-        margin: 150px 250px 75px 250px;
-      
-        
+
+    #exhibitions span {
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #e4d6c0;
+            background-color: rgba(0, 0, 0, 1);
+            
+            width: 20%;
+            height: 300px;
+            float: left;
+            padding: 30px 0 0 10px;
+            text-align: center;
+            border: 2px solid #958C80;
+            box-sizing: border-box;
+    
         }
 
-         /*  exhihbitions styling */
+        #exhibitions img {
+            opacity: 0.3;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            height: auto;
+            width: 877px;
+        
+        }
+/*  
+        #exhibitions {
+            background-image: url('../images/photo-gallery.jpeg');
+            background-repeat: no-repeat;
+            background-size: normal;
+            background-position: center;
+            overflow: hidden;
+            opacity: 1;
+        }
+
+        */
+        
+        #exhibitions div {
+            color: #141414;
+            width: 30%;
+            height: 300px;
+            float: center;
+            padding: 30px 0 0 10px;
+            text-align: center;
+            
+        }
+        
+
+         /*  contact styling */
 
          #contact {
    
