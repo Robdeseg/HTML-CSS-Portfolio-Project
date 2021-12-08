@@ -29,12 +29,12 @@ a:hover {
     letter-spacing: 4px;
     font-size: 200%;
     text-align: center;
-    vertical-align: middle;
+    vertical-align: middle; 
     padding-bottom: 12%;
     padding-top: 32%;
     
 
-/*  animates zoom effect on loading page */
+/* animates zoom effect on loading page */
 
 animation-name: title-zoom;
 animation-duration: 5s;
@@ -43,7 +43,6 @@ animation-fill-mode: forwards;
 
 #title-faded {
     opacity: 0.7;
-    
 }
 
 /* creates the zoom effect of title */
@@ -66,7 +65,7 @@ animation-fill-mode: forwards;
     margin-top: 5%;
     margin-bottom: 5%;
     height: auto;
-    width: 977px;
+    width: 950px;
 }
 
 #title-over-photo {
@@ -313,15 +312,6 @@ footer ul {
 
         /*  exhihbitions styling */
 
-        
-        #title-over-photo {
-            position: relative;
-            color: rgb(240, 236, 236);
-            font-size: 110%;
-            
-        }
-        
-
         #exhibitions {
    
             position: relative;
@@ -329,8 +319,65 @@ footer ul {
             font-size: 110%;
             
         }
+
+        #exhibitions img {
+            opacity: 0.5;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            height: auto;
+            width: 877px;
+            
+        }
     
+        #exhibitions ul {
+            float: left;
+            text-decoration: none;
+            list-style-type: none;
+          
+        }
+
+        #leftside {
+            text-align: center;
+            float: left;
     
+            position: absolute;
+            top: 80px;
+            left: 0px;
+            width: 250px;
+            height: 250px;
+            border: 1px solid #e4d6c0;
+            
+        }
+        
+        #middle {
+            text-align: center;
+            vertical-align: middle;
+            width: 50%;
+            
+        }
+        
+        #rightside {
+            text-align: center;
+            float: right;
+            width: 25%;
+            
+        }
+        
+        #middle li {
+            padding-bottom: 4px 
+        }
+        
+        #rightside li {
+            padding: 4px;
+        }
+        
+        #leftside li {
+            padding: 4px;
+        }
+        
 
     #exhibitions span {
 
@@ -340,7 +387,6 @@ footer ul {
             transform: translate(-50%, -50%);
             color: #e4d6c0;
             background-color: rgba(0, 0, 0, 1);
-            
             width: 20%;
             height: 300px;
             float: left;
@@ -351,17 +397,7 @@ footer ul {
     
         }
 
-        #exhibitions img {
-            opacity: 0.3;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 5%;
-            margin-bottom: 5%;
-            height: auto;
-            width: 877px;
-        
-        }
+       
 /*  
         #exhibitions {
             background-image: url('../images/photo-gallery.jpeg');
