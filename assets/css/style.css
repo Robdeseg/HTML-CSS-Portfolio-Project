@@ -303,7 +303,7 @@ footer ul {
         margin-right: auto;
         margin-top: 0;
         height: auto;
-        width: 280px;
+        width: 450px;
         opacity: .7;
     
     }
@@ -329,8 +329,15 @@ footer ul {
 
 #selected-works-images {
 
-    margin: 150px 250px 75px 250px;
+    margin: 20px 50px 50px 50px;
+        clear: both;
+        line-height: 30px;
+        column-count: 4;
+        column-gap: 30px;
+    }
     
+    #selected-works > img {
+        width: 100%;
     }
 
         /*  fine art styling */
@@ -349,13 +356,13 @@ footer ul {
             margin-left: auto;
             margin-right: auto;
             height: auto;
-            width: 320px;
+            width: 350px;
             
         }
     
     #fine-art-blurb {
     
-        margin: 0 250px 50px 250px;
+        margin: 5px 250px 15px 250px;
         color: #e4d6c0;
         
         
@@ -437,9 +444,11 @@ footer ul {
     #contact-info {
     
         margin: 150px 250px 75px 250px;
-      
         
         }
+
+       
+
 
 /*
 use this when making header menu responsive
