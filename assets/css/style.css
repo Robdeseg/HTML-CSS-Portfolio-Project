@@ -117,84 +117,6 @@ a:hover {
 
 */
 
-/*  footer styling */
-
-#footer {
-    padding: 0px 75px 0px 75px;
-    overflow: hidden;
-    height: 300px;
-    clear: both;
-    position:absolute;
-    bottom: 0;
-    width: 100%;
-}
-
-footer ul {
-    float: left;
-    text-decoration: none;
-    list-style-type: none;
-}
-
-.leftside {
-    float: left;
-    width: 25%;
-}
-
-.middle {
-    text-align: center;
-    vertical-align: middle;
-    width: 50%;
-}
-
-.rightside {
-    float: right;
-    text-align: right;
-    width: 25%;
-}
-
-.middle li {
-    padding-bottom: 15px
-}
-
-.rightside li {
-    padding: 4px;
-}
-
-.leftside li {
-    padding: 4px;
-}
-
-
-#desegundo-design {
-    opacity: .4;
-}
-
-#email {
-    background-color: black;
-    color: #958C80;
-    text-align: center;
-    border: .5px solid;
-    border-color: #958C80;
-    padding: 5px;
-    margin-top: 5px;
-    font-family: 'Cormorant Garamond', serif, 'Times New Roman';
-}
-
-#submit {
-    background-color: black;
-    color: #958C80;
-    border: 1px solid;
-    border-color: #958C80;
-    padding: 5px;
-    margin-top: 10px;
-    border-radius: 12px;
-    font-family: 'Cormorant Garamond', serif, 'Times New Roman';
-}
-
-#submit:hover {
-    color: #e4d6c0;
-}
-
 /*  de Segundo Design contact form styling */
 
 #email-2 {
@@ -317,8 +239,7 @@ footer ul {
 #introduction {
 
     padding-top: 5%;
-    padding-bottom: 13%;
-    height: 450px;
+    padding-bottom: 5%;
     margin: auto;
 
 
@@ -377,8 +298,7 @@ footer ul {
 #fine-art {
 
     padding-top: 5%;
-    padding-bottom: 13%;
-    height: 450px;
+    padding-bottom: 5%;
     margin: auto;
 
 }
@@ -478,6 +398,82 @@ footer ul {
 
 }
 
+/*  footer styling */
 
+#footer {
+    padding: 0px 75px 0px 75px;
+    overflow: hidden;
+    height: 300px;
+    clear: both;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul {
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.leftside {
+    float: left;
+    width: 25%;
+}
+
+.middle {
+    text-align: center;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.rightside {
+    float: right;
+    text-align: right;
+    width: 25%;
+}
+
+.middle li {
+    padding-bottom: 15px
+}
+
+.rightside li {
+    padding: 4px;
+}
+
+.leftside li {
+    padding: 4px;
+}
+
+
+#desegundo-design {
+    opacity: .4;
+}
+
+#email {
+    background-color: black;
+    color: #958C80;
+    text-align: center;
+    border: .5px solid;
+    border-color: #958C80;
+    padding: 5px;
+    margin-top: 5px;
+    font-family: 'Cormorant Garamond', serif, 'Times New Roman';
+}
+
+#submit {
+    background-color: black;
+    color: #958C80;
+    border: 1px solid;
+    border-color: #958C80;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 12px;
+    font-family: 'Cormorant Garamond', serif, 'Times New Roman';
+}
+
+#submit:hover {
+    color: #e4d6c0;
+}
 
 
