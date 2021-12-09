@@ -10,6 +10,16 @@ body {
     font-family: 'Cormorant Garamond', serif, 'Times New Roman';
     background-color: black;
     color: #958C80;
+    min-height: 100%;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 300px;
 }
 
 a {
@@ -29,16 +39,16 @@ a:hover {
     letter-spacing: 4px;
     font-size: 200%;
     text-align: center;
-    vertical-align: middle; 
+    vertical-align: middle;
     padding-bottom: 12%;
     padding-top: 32%;
-    
 
-/* animates zoom effect on loading page */
 
-animation-name: title-zoom;
-animation-duration: 5s;
-animation-fill-mode: forwards;
+    /* animates zoom effect on loading page */
+
+    animation-name: title-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
 #title-faded {
@@ -48,10 +58,11 @@ animation-fill-mode: forwards;
 /* creates the zoom effect of title */
 
 @keyframes title-zoom {
-    from{
+    from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.1);
     }
 }
@@ -72,7 +83,7 @@ animation-fill-mode: forwards;
     position: relative;
     color: rgb(240, 236, 236);
     font-size: 110%;
-    
+
 }
 
 #centered {
@@ -83,9 +94,9 @@ animation-fill-mode: forwards;
 
 /* animates zoom effect on loading page */
 
-animation-name: centered-zoom;
-animation-duration: 5s;
-animation-fill-mode: forwards;
+    animation-name: centered-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 
 }
 
@@ -108,12 +119,14 @@ animation-fill-mode: forwards;
 
 /*  footer styling */
 
-footer {
+#footer {
     padding: 0px 75px 0px 75px;
     overflow: hidden;
     height: 300px;
-    position: sticky;
-   
+    clear: both;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 footer ul {
@@ -140,7 +153,7 @@ footer ul {
 }
 
 .middle li {
-    padding-bottom: 15px 
+    padding-bottom: 15px
 }
 
 .rightside li {
@@ -152,9 +165,8 @@ footer ul {
 }
 
 
-#desegundo-design {    
-   opacity: .4;
-   
+#desegundo-design {
+    opacity: .4;
 }
 
 #email {
@@ -285,200 +297,187 @@ footer ul {
     text-decoration: underline;
 }
 
-/*  introdcution styling */
+/* making header responsive 
 
-#introduction {
-   
-        padding-top: 5%;
-        padding-bottom: 13%;
-        height: 450px;
-        margin: auto;
-        
-       
-    }
-
-    #intro-image {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 0;
-        height: auto;
-        width: 400px;
-        opacity: .7;
+@media screen and (max-width: 800px) {
     
-    }
-
-#introduction-blurb {
-
-    margin: 0 250px 0px 250px;
-    color:#e4d6c0;
-
-    
-    }
-        
-
-    /*  selected works styling */
-
-    #selected-works {
-   
-        margin: auto;
-        padding-bottom: 30px;
-        
-    }
-
-    .row {
-        display: flex;
-        flex-wrap: wrap;
-        padding: 0 45px;
-    }
-
-    .column {
-        flex: 40%;
-        max-width: 40%;
-        padding: 0 45px;
-        margin: auto;
-    }
-
-    .column img {
-        margin-top: 90px;
-        vertical-align: middle;
-        width: 100%;
-    }
-/*  
-#selected-works-images {
-
-        margin: 20px 50px 50px 50px;
-        clear: both;
-        display: block;
-        box-sizing: content-box;
-        column-gap: 30px;
-        line-height: 100px;
-        
-    }
-    
-    #selected-works > img {
-        width: 50%;
-        padding: 50px;
-        box-sizing: border-box;
-        
-    }
-*/
-        /*  fine art styling */
-
-        #fine-art {
-   
-            padding-top: 5%;
-            padding-bottom: 13%;
-            height: 450px;
-            margin: auto;
-            
-        }
-
-        #fine-art-image {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            height: auto;
-            width: 350px;
-            
-        }
-    
-    #fine-art-blurb {
-    
-        margin: 5px 250px 15px 250px;
-        color: #e4d6c0;
-        
-        
-        }
-
-        /*  exhihbitions styling */
-
-
-        #exhibitions {
-            
-            color: rgb(230, 223, 223);
-            font-size: 110%;
-            position: relative;
-            
-        }
-
-        #exhibitions img {
-            opacity: 0.3;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 5%;
-            margin-bottom: 5%;
-            height: auto;
-            width: 877px;
-            
-        }
-    
-        #exhibitions ul {
-            
-            float: left;
-            text-decoration: none;
-            list-style-type: none;
-            color: #e4d6c0;
-            vertical-align: middle;
-            width: 20%;
-            height: 250px;
-            padding: 30px 10px 10px 10px;
-            text-align: center;
-            border: 2px solid #958C80;
-            box-sizing: border-box;
-            margin: 0 20px 20px 0;
-            top: 27%;
-            
-        }
-
-        #leftside {
-
-            position: absolute;
-            left: 13.5%
-
-        }
-
-        #middle {
-
-            position: absolute;
-            left: 40%;
-
-        }
-
-        #rightside {
-
-            position: absolute;
-            right: 12%;
-        }
-
-
-         /*  contact styling */
-
-         #contact {
-   
-            padding-top: 5%;
-            padding-bottom: 13%;
-            height: 450px;
-            margin: auto;
-            
-        }
-    
-    #contact-info {
-    
-        margin: 150px 250px 75px 250px;
-        
-        }
-
-       
-
-
-/*
-use this when making header menu responsive
-
 #header-menu li {
     text-align: center;
     list-style-type: none;
     margin: 10px 30px 10px 30px
 }
+}
+
+@media screen and (max-width: 600px)
+
 */
+
+/*  introdcution styling */
+
+#introduction {
+
+    padding-top: 5%;
+    padding-bottom: 13%;
+    height: 450px;
+    margin: auto;
+
+
+}
+
+#intro-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    height: auto;
+    width: 400px;
+    opacity: .7;
+
+}
+
+#introduction-blurb {
+
+    margin: 0 250px 0px 250px;
+    color: #e4d6c0;
+
+}
+
+
+/*  selected works styling */
+
+#selected-works {
+
+    margin: auto;
+    padding-bottom: 30px;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 45px;
+}
+
+.column {
+    flex: 40%;
+    max-width: 40%;
+    padding: 0 45px;
+    margin: auto;
+}
+
+.column img {
+    margin-top: 90px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+
+/*  fine art styling */
+
+#fine-art {
+
+    padding-top: 5%;
+    padding-bottom: 13%;
+    height: 450px;
+    margin: auto;
+
+}
+
+#fine-art-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 350px;
+
+}
+
+#fine-art-blurb {
+
+    margin: 5px 250px 15px 250px;
+    color: #e4d6c0;
+
+
+}
+
+/*  exhihbitions styling */
+
+
+#exhibitions {
+
+    color: rgb(230, 223, 223);
+    font-size: 110%;
+    position: relative;
+
+}
+
+#exhibitions img {
+    opacity: 0.3;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: auto;
+    width: 877px;
+
+}
+
+#exhibitions ul {
+
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+    color: #e4d6c0;
+    vertical-align: middle;
+    width: 20%;
+    height: 250px;
+    padding: 30px 10px 10px 10px;
+    text-align: center;
+    border: 2px solid #958C80;
+    box-sizing: border-box;
+    margin: 0 20px 20px 0;
+    top: 27%;
+
+}
+
+#leftside {
+
+    position: absolute;
+    left: 13.5%
+}
+
+#middle {
+
+    position: absolute;
+    left: 40%;
+
+}
+
+#rightside {
+
+    position: absolute;
+    right: 12%;
+}
+
+
+/*  contact styling */
+
+#contact {
+
+    padding-top: 5%;
+    padding-bottom: 13%;
+    height: 450px;
+    margin: auto;
+
+}
+
+#contact-info {
+
+    margin: 150px 250px 75px 250px;
+
+}
+
+
+
+
