@@ -86,6 +86,7 @@ a:hover {
 
 }
 
+
 #centered {
     position: absolute;
     top: 40%;
@@ -238,30 +239,36 @@ a:hover {
 
 #introduction {
 
-    padding-top: 5%;
+    padding-top: 2%;
     padding-bottom: 5%;
     margin: auto;
-
+    
 
 }
 
-#intro-image {
+#introduction-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
     height: auto;
-    width: 400px;
-    opacity: .7;
-
+    width: 350px;
+    
+    
 }
+
 
 #introduction-blurb {
-
-    margin: 0 250px 0px 250px;
+    
+    margin: 70px 75px 10px 200px;
     color: #e4d6c0;
+    
+    width: 70%;
+    
 
 }
+
 
 
 /*  selected works styling */
@@ -314,7 +321,7 @@ a:hover {
 
 #fine-art-blurb {
 
-    margin: 5px 250px 15px 250px;
+    margin: 75px 225px 10px 225px;
     color: #e4d6c0;
 
 
@@ -404,10 +411,11 @@ a:hover {
     padding: 0px 75px 0px 75px;
     overflow: hidden;
     height: 300px;
-    clear: both;
-    position:absolute;
-    bottom: 0;
     width: 100%;
+    clear: both;
+    position: absolute;
+    bottom: 0;
+    
 }
 
 footer ul {
@@ -423,12 +431,12 @@ footer ul {
 
 .middle {
     text-align: center;
-    vertical-align: middle;
-    width: 50%;
+    float: left;
+    width: 25%;
 }
 
 .rightside {
-    float: right;
+    float: left;
     text-align: right;
     width: 25%;
 }
@@ -444,7 +452,6 @@ footer ul {
 .leftside li {
     padding: 4px;
 }
-
 
 #desegundo-design {
     opacity: .4;
