@@ -321,25 +321,48 @@ footer ul {
 
     #selected-works {
    
-        padding-top: 5%;
-        padding-bottom: 13%;
-        height: 450px;
+        margin: auto;
+        padding-bottom: 30px;
+        
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 45px;
+    }
+
+    .column {
+        flex: 40%;
+        max-width: 40%;
+        padding: 0 45px;
         margin: auto;
     }
 
+    .column img {
+        margin-top: 90px;
+        vertical-align: middle;
+        width: 100%;
+    }
+/*  
 #selected-works-images {
 
-    margin: 20px 50px 50px 50px;
+        margin: 20px 50px 50px 50px;
         clear: both;
-        line-height: 30px;
-        column-count: 4;
+        display: block;
+        box-sizing: content-box;
         column-gap: 30px;
+        line-height: 100px;
+        
     }
     
     #selected-works > img {
-        width: 100%;
+        width: 50%;
+        padding: 50px;
+        box-sizing: border-box;
+        
     }
-
+*/
         /*  fine art styling */
 
         #fine-art {
