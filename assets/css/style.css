@@ -293,13 +293,31 @@ footer ul {
         padding-bottom: 13%;
         height: 450px;
         margin: auto;
+        
+       
+    }
+
+    #intro-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 4%;
+        
+        height: auto;
+        width: 420px;
+        opacity: .4;
+        
+        
     }
 
 #introduction-blurb {
 
     margin: 150px 250px 75px 250px;
+    color:#e4d6c0;
+    position: absolute;
     
     }
+        
 
     /*  selected works styling */
 
@@ -331,6 +349,7 @@ footer ul {
     #fine-art-blurb {
     
         margin: 150px 250px 75px 250px;
+        color: #e4d6c0;
         
         }
 
