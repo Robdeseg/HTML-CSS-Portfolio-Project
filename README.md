@@ -18,3 +18,5 @@ Unfixed Bugs
 Deployment
 
 Credits
+
+W3Schools helped with the arrangement of the photos into two columns in the selected works section.
