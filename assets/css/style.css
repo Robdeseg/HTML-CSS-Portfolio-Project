@@ -52,7 +52,7 @@ a:hover {
 }
 
 #title-faded {
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 /* creates the zoom effect of title */
@@ -225,21 +225,16 @@ a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2%;
-    margin-bottom: 1%;
     height: auto;
     width: 350px;
-    
-    
 }
 
 
 #introduction-blurb {
     
-    margin: 70px 75px 10px 200px;
+    margin: 70px 75px 5px 200px;
     color: #1b1a17;
-    width: 70%;
-    
+    width: 70%;  
 
 }
 
@@ -310,6 +305,7 @@ a:hover {
     color: #1b1a17;
     font-size: 110%;
     position: relative;
+    
 
 }
 
@@ -322,31 +318,34 @@ a:hover {
     margin-bottom: 5%;
     height: auto;
     width: 877px;
+    
 
 }
 
 #exhibitions ul {
 
     float: left;
+    position: absolute;
     text-decoration: none;
     list-style-type: none;
     color: #1b1a17;
-    vertical-align: middle;
     width: 20%;
-    height: 250px;
-    padding: 30px 10px 10px 10px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
     text-align: center;
-    border: 2px solid #645f57;
+    padding: 20px 10px 20px 10px;
+    border: 2px solid #1b1a17;
     box-sizing: border-box;
-    margin: 0 20px 20px 0;
-    top: 27%;
+    top: 30%;
 
 }
 
 #leftside {
 
     position: absolute;
-    left: 13.5%
+    left: 12%
+
 }
 
 #middle {
@@ -362,29 +361,30 @@ a:hover {
     right: 12%;
 }
 
-
 /*  contact styling */
 
 #contact {
-
-    padding-top: 2%;
-    padding-bottom: 5%;
-    height: 450px;
-    margin: auto;
+    
+    height: 350px;
+    margin-top: 10%;
+   
 }
 
- .agents {
-     float: left;
-     margin-right: 15%;
-     font-weight: 200;
- } 
 
 
 #contact-info {
 
-    margin: 70px 75px 10px 200px;
-
+    padding: 30px 10px 30px 10px;
+    text-align: center;
+    border: 2px solid #1b1a17;
+    box-sizing: border-box;
+    width: 20%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
+
 
 /*  footer styling */
 
