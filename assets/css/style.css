@@ -225,6 +225,7 @@ a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 15px;
     height: auto;
     width: 350px;
 }
@@ -232,7 +233,8 @@ a:hover {
 
 #introduction-blurb {
     
-    margin: 70px 75px 5px 200px;
+    padding-top: 5%;
+    margin: auto;
     color: #1b1a17;
     width: 70%;  
 
@@ -283,6 +285,7 @@ a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 4%;
     height: auto;
     width: 350px;
 
@@ -290,7 +293,8 @@ a:hover {
 
 #fine-art-blurb {
 
-    margin: 70px 75px 50px 200px;
+    padding-top: 5%;
+    margin: auto;
     color: #1b1a17;
     width: 70%;
 
@@ -474,10 +478,20 @@ footer ul {
 /* media queries */
 
 /* Extra large devices (large laptops and desktops, 1280px and up) */
-@media screen and (max-width: 1280px) {...}
+@media screen and (max-width: 1280px) {
+
+#introduction-blurb {
+    
+}
+
+}
 
 /* Medium devices ie landscape tablets (768px and up) */
-@media screen and (max-width: 768px) {...}
+@media screen and (max-width: 768px) {
+
+
+
+}
 
 /* Small devices ie portrait tablets (600px and up) */
 @media screen and (max-width: 600px) {
@@ -491,11 +505,8 @@ footer ul {
 @media screen and (min-width: 320px) {
 
     #title {
-
         font-size: 70%;
     }
-
-
 
 }
 
