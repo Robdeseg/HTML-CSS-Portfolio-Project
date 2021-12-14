@@ -1,4 +1,5 @@
-Robert de Segundo Photography
+Willem Platerink Photography
+
 Introduction
 
 Features

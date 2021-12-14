@@ -40,13 +40,13 @@ a:hover {
     font-size: 275%;
     text-align: center;
     vertical-align: middle;
-    margin-top: 22%;
+    margin-top: 23%;
 
 
     /* animates zoom effect on loading page */
 
     animation-name: title-zoom;
-    animation-duration: 5s;
+    animation-duration: 7s;
     animation-fill-mode: forwards;
 }
 
@@ -62,7 +62,7 @@ a:hover {
     }
 
     to {
-        transform: scale(1.1);
+        transform: scale(1.2);
     }
 }
 
@@ -84,7 +84,6 @@ a:hover {
     font-size: 130%;
 
 }
-
 
 #centered {
     position: absolute;
@@ -218,10 +217,10 @@ a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 3%;
+    margin-bottom: 3%;
     height: auto;
-    width: 1200px;
+    width: 1150px;
     position: relative;   
     
 }
@@ -229,13 +228,15 @@ a:hover {
 #introduction-blurb {
     
     padding-top: 2%;
-    width: 65%;  
+    width: 70%;  
     position: absolute;   
     top: 6%;
-    left: 19%;
+    left: 15%;
     color: rgb(255, 255, 255);
 
 }
+
+
 
 
 /*  selected works styling */
@@ -316,10 +317,10 @@ a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
     height: auto;
-    width: 877px;
+    width: 1000px;
     
 
 }
@@ -331,13 +332,15 @@ a:hover {
     text-decoration: none;
     list-style-type: none;
     color: #1b1a17;
-    width: 20%;
+    
     height: auto;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
     padding: 20px 10px 20px 10px;
     border: 2px solid #1b1a17;
+    height: 35%;
+    width: 20%;
     box-sizing: border-box;
     top: 30%;
 
