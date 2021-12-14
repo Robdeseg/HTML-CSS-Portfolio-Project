@@ -36,35 +36,46 @@ a:hover {
 }
 
 #title {
-    letter-spacing: 4px;
-    font-size: 250%;
-    text-align: center;
+    
+    font-size: 120%;
     vertical-align: middle;
     margin-top: 23%;
-
+    margin-left: 17%;
+    width: 65%;
 
     /* animates zoom effect on loading page */
 
     animation-name: title-zoom;
-    animation-duration: 7s;
+    animation-duration: 20s;
     animation-fill-mode: forwards;
 }
 
-#title-faded {
-    opacity: 0.5;
-}
 
 /* creates the zoom effect of title */
 
 @keyframes title-zoom {
     from {
-        transform: scale(1);
+        transform: scale(.8);
     }
 
     to {
         transform: scale(1.2);
     }
 }
+
+#fading-blurb {
+
+    animation: 15s ease 0s normal forwards 1 fadeout;
+    
+    
+}
+
+@keyframes fadeout{
+    0% { opacity:1; }
+    66% { opacity:1; }
+    100% { opacity:0; }
+}
+
 
 /*  main menu image styling */
 
@@ -89,6 +100,10 @@ a:hover {
     position: absolute;
     top: 40%;
     left: 25%;
+}
+
+#title-faded {
+    opacity: .7;
 }
 
 /*  de Segundo Design contact form styling */
