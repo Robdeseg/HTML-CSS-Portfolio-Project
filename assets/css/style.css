@@ -272,30 +272,32 @@ a:hover {
 #fine-art {
 
     padding-top: 2%;
-    padding-bottom: 4%;
+    padding-bottom: 2%;
     margin: auto;
 
 }
 
-#fine-art-image {
+
+#fine-art-image-2 {
+
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 4%;
+    margin-top: 2%;
+    
     height: auto;
-    width: 350px;
-
+    width: 600px;
+    
 }
 
 #fine-art-blurb {
-
-    padding-top: 2%;
-    margin: auto;
-    color: #1b1a17;
-    width: 60%;
-
-
+    padding-top: 1%;
+    width: 65%;  
+    top: 10%;
+    margin-left: 20%;
+    color: #1b1a17
 }
+
 
 /*  exhihbitions styling */
 
