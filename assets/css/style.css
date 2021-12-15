@@ -37,7 +37,7 @@ a:hover {
 
 #title {
     
-    font-size: 120%;
+    font-size: 110%;
     vertical-align: middle;
     margin-top: 23%;
     margin-left: 17%;
@@ -77,7 +77,6 @@ a:hover {
     100% { opacity:0; }
 }
 
-
 #enter-image {
     display: block;
     margin-left: auto;
@@ -85,14 +84,13 @@ a:hover {
     margin-top: 2%;
     margin-bottom: 2%;
     height: auto;
-    width: 80%;
+    width: 75%;
 }
+
 
 
 #enter {
     position: relative;
-    color: #1b1a17;
-    font-size: 130%;
     animation: 23s ease 0s normal forwards 1 fadein;
     
 }
@@ -103,14 +101,16 @@ a:hover {
     100% { opacity:1; }
 }
 
+
 #enter-click {
     position: absolute;
-    top: 70%;
+    top: 80%;
     right: 25%;
     color: #f0e4cf;
-    font-size: 110%;
+    font-size: 200%;
     
 }
+
 
 #enter-click:hover {
     color: #beb29e;
