@@ -42,6 +42,7 @@ a:hover {
     margin-top: 23%;
     margin-left: 17%;
     width: 65%;
+    position: relative;
 
     /* animates zoom effect on loading page */
 
@@ -65,9 +66,9 @@ a:hover {
 
 /* creates the fading of the quote */
 
-#fading-blurb {
+.fading-blurb {
 
-    animation: 18s ease 0s normal forwards 1 fadeout;
+    animation: 23s ease 0s normal forwards 1 fadeout;
     
 }
 
@@ -75,6 +76,39 @@ a:hover {
     0% { opacity:1; }
     66% { opacity:1; }
     100% { opacity:0; }
+}
+
+
+#enter-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: auto;
+    width: 80%;
+}
+
+
+#enter {
+    position: relative;
+    color: rgb(240, 236, 236);
+    font-size: 130%;
+    animation: 23s ease 0s normal forwards 1 fadein;
+    
+}
+
+@keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+#enter-click {
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    
 }
 
 
