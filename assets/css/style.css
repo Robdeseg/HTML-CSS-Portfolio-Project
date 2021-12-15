@@ -432,27 +432,34 @@ a:hover {
 
 
 #contact {
-    
-    
+    position: relative; 
     margin-top: 5%;
     margin-bottom: 5%;
-    background: url('../images/globe.png') no-repeat center center; opacity: .75;
     width: 500px;
     height: 500px;
-    border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
     
-   
 }
 
+#contact::before {
+
+    content:"";
+    background: url('../images/globe.png') no-repeat center center; 
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.3;
+}
 
 #contact-info {
 
     padding: 110px 10px 140px 10px;
     text-align: center;
-    
-   
+    position: relative;
     
 }
 
