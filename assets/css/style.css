@@ -433,7 +433,7 @@ a:hover {
 
 #contact {
     
-    color: #0f0f0d;
+    
     margin-top: 5%;
     margin-bottom: 5%;
     background: url('../images/globe.png') no-repeat center center; opacity: .75;
@@ -446,10 +446,13 @@ a:hover {
    
 }
 
+
 #contact-info {
 
     padding: 110px 10px 140px 10px;
     text-align: center;
+    
+   
     
 }
 
