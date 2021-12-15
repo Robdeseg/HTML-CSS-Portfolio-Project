@@ -27,3 +27,5 @@ Deployment
 Credits
 
 W3Schools helped with the arrangement of the photos into two columns in the selected works section.
+
+Coder Coder helped resolve the issue of amending the opacity of the background image (the globe) and not the text on top of it.
