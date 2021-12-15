@@ -104,13 +104,12 @@ a:hover {
 
 #enter-click {
     position: absolute;
-    top: 76%;
+    top: 80%;
     right: 18%;
     color: #f0e4cf;
     font-size: 200%;
     
 }
-
 
 #enter-click:hover {
     color: #beb29e;
@@ -274,7 +273,7 @@ a:hover {
     margin-top: 3%;
     margin-bottom: 3%;
     height: auto;
-    width: 1150px;
+    width: 80%;
     position: relative;   
     
 }
@@ -327,50 +326,27 @@ a:hover {
     padding-bottom: 2%;
     margin: auto;
     position: relative;
-    
 
 }
 
 
 #fine-art-image-1 {
 
-        opacity: 0.3;
+        opacity: 0.2;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 3%;
         height: auto;
-        width: 75%;
-        
+        width: 80%;
     
     }
-}
-
-
-#fine-art-blurb p {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto; 
-}
-
-#fine-art-image-2 {
-
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3%;
-    margin-bottom: 2%;
-    height: auto;
-    width: 35%;
-    
-}
 
 #fine-art-blurb {
     
-    top: 10%;
-    margin-left: auto;
-    margin-right: auto;
-    color: #1b1a17;
+    width: 50%;
+    top: 35%;
+    left: 25%;
+    color: #030303;
     position: absolute;
     
 }
@@ -387,7 +363,7 @@ a:hover {
 }
 
 #exhibitions img {
-    opacity: 0.3;
+    opacity: 0.2;
     display: block;
     margin-left: auto;
     margin-right: auto;
