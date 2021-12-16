@@ -39,8 +39,8 @@ a:hover {
     
     font-size: 110%;
     vertical-align: middle;
-    margin-top: 20%;
-    margin-left: 23%;
+    margin-top: 18%;
+    margin-left: 22%;
     width: 55%;
     position: absolute;
 
@@ -78,18 +78,13 @@ a:hover {
 }
 
 #enter-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    height: auto;
-    width: 75%;
+    margin-top: 79px;
+   
 }
 
 
 
-.enter {
+#enter {
     position: relative;
     animation: 23s ease 0s normal forwards 1 fadein;
     
@@ -104,8 +99,8 @@ a:hover {
 
 #enter-click {
     position: absolute;
-    top: 80%;
-    right: 18%;
+    top: 40%;
+    left: 40%;
     color: #f0e4cf;
     font-size: 200%;
     
@@ -118,7 +113,7 @@ a:hover {
 
 /*  main menu image styling */
 
-#main-menu-image {
+.main-menu-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
