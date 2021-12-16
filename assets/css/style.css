@@ -19,7 +19,7 @@ body {
 }
 
 #content-wrap {
-    padding-bottom: 300px;
+    padding-bottom: 200px;
 }
 
 a {
@@ -301,18 +301,18 @@ a:hover {
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 45px;
+    padding: 0 30px;
 }
 
 .column {
-    flex: 42%;
-    max-width: 42%;
-    padding: 0 45px;
+    flex: 45%;
+    max-width: 45%;
+    padding: 0 30px;
     margin: auto;
 }
 
 .column img {
-    margin-top: 90px;
+    margin-top: 70px;
     vertical-align: middle;
     width: 100%;
 }
@@ -468,7 +468,7 @@ a:hover {
 
 #footer {
     
-    height: 300px;
+    height: 200px;
     width: 100%;
     clear: both;
     position: absolute;
@@ -567,6 +567,7 @@ footer ul {
     font-size: 125%;
     letter-spacing: 4px;
 }
+
 
 /* Medium devices ie portrait tablets (768px and down) */
 @media screen and (max-width: 768px) {
