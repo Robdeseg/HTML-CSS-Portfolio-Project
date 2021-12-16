@@ -377,7 +377,6 @@ a:hover {
     text-decoration: none;
     list-style-type: none;
     color: #0f0f0d;
-    
     height: auto;
     margin-right: auto;
     margin-left: auto;
@@ -538,8 +537,7 @@ footer ul {
     letter-spacing: 4px;
 }
 
-
-
+}
 
 /* Medium devices ie portrait tablets (770px and down) */
 @media screen and (max-width: 770px) {
@@ -597,6 +595,45 @@ footer ul {
     text-align: right;
     width: 25%;
     margin-right: 10%;
+}
+
+#fine-art-blurb {
+    
+    width: 70%;
+    top: 15%;
+    left: 15%;
+    color: #030303;
+    position: absolute;
+    
+}
+
+#exhibitions img {
+    opacity: 0.2;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 27.5%;
+    margin-bottom: 3%;
+    height: auto;
+    width: 90%;
+}
+
+#exhibitions ul {
+
+    text-decoration: none;
+    list-style-type: none;
+    color: #0f0f0d;
+    
+    height: auto;
+    
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+    
+   
+ 
+
+
+
 }
 
 /* Small devices ie phones (350px and down) */
