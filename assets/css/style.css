@@ -542,6 +542,17 @@ footer ul {
 /* Medium devices ie portrait tablets (770px and down) */
 @media screen and (max-width: 770px) {
 
+    #title {
+    
+        font-size: 110%;
+        vertical-align: middle;
+        margin-top: 35%;
+        margin-left: 22%;
+        width: 55%;
+        position: absolute;
+
+    }
+
    #centered {
        font-size: 60%
    }
@@ -580,13 +591,13 @@ footer ul {
 .leftside {
     float: left;
     width: 25%;
-    margin-left: 10%;
+    margin-left: 8%;
 }
 
 .middle {
     text-align: center;
     float: left;
-    width: 30%;
+    width: 34%;
     
 }
 
@@ -594,7 +605,7 @@ footer ul {
     float: left;
     text-align: right;
     width: 25%;
-    margin-right: 10%;
+    margin-right: 8%;
 }
 
 #fine-art-blurb {
@@ -629,12 +640,8 @@ footer ul {
     text-align: center;
     padding: 20px 10px 20px 10px;
     
-   
- 
-
-
-
 }
+    }
 
 /* Small devices ie phones (350px and down) */
 @media screen and (max-width: 350px) {
