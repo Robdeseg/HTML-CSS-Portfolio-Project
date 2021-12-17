@@ -491,11 +491,16 @@ footer ul {
 }
 
 .rightside li {
-    padding: 4px;
+    padding: 3px;
 }
 
 .leftside li {
-    padding: 4px;
+    padding: 3px;
+}
+
+#copyright {
+    font-size: 80%;
+    padding-top: 30px;
 }
 
 #desegundo-design {
@@ -559,6 +564,12 @@ footer ul {
        font-size: 60%
    }
 
+   #centered {
+
+    left: 15%;
+
+   }
+
    
    #header-menu {
     font-size: 100%;
@@ -583,6 +594,20 @@ footer ul {
     width: 80%;
     display: block;
 
+}
+
+#enter-image-2 {
+    margin-top: 3%;
+}
+
+#enter {
+    margin-top: 11%;
+    margin-bottom: 3%;
+}
+
+#title-over-photo {
+    margin-top: 5%;
+    margin-bottom: 3%;
 }
 
 .row {
@@ -670,22 +695,34 @@ footer ul {
 #leftside {
 
     
-    left: 8%
+    left: 7%
 
 }
 
 #middle {
 
     
-    left: 38.5%;
+    left: 40.5%;
 
 }
 
 #rightside {
 
     
-    right: 8%;
+    right: 7%;
 }
+    }
+
+    .middle li {
+        padding-bottom: 5px
+    }
+    
+    .rightside li {
+        padding: 4px;
+    }
+    
+    .leftside li {
+        padding: 4px;
     }
 
 /* Small devices ie phones (350px and down) */
