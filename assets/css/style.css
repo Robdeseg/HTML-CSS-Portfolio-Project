@@ -379,6 +379,7 @@ display: none;
     margin-bottom: 3%;
     height: auto;
     width: 75%;
+    position: relative;
 
 }
 
@@ -696,22 +697,43 @@ footer ul {
     margin-bottom: 3%;
     height: auto;
     width: 80%;
+    position: relative;
         
 }
 
 
+#exhibitions ul {
+
+    float: left;
+    position: absolute;
+    text-decoration: none;
+    list-style-type: none;
+    color: #0f0f0d;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+    border: 2px solid #0f0f0d;
+    height: 35%;
+    width: 40%;
+    box-sizing: border-box;
+    top: 30%;
+
+}
+/* 
 #exhibitions ul {
     text-decoration: none;
     list-style-type: none;
     color: #0f0f0d;
     height: 75%;
     width: 23%;
-    text-align: center;
     padding: 20px 10px 20px 10px;
     top: 14%
     
 }
-
+ */
+ 
 #exhibitions {
 
     color: #0f0f0d;
@@ -722,18 +744,21 @@ footer ul {
 
 #leftside {
     
-    left: 8%
+    left: 8%;
+   
 }
 
 #middle {
     
     left: 38.5%;
+    
 
 }
 
 #rightside {
     
     right: 8%;
+    
 }
     }
 
