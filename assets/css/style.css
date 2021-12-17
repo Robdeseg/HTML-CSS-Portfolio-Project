@@ -665,7 +665,7 @@ footer ul {
 #fine-art-blurb {
     
     width: 70%;
-    top: 8%;
+    top: 10%;
     left: 15%;
     color: #030303;
     position: absolute;
@@ -675,6 +675,7 @@ footer ul {
 #fine-art-extention {
     display: none
 }
+
 
 #framed-image-responsive {
     display: block;
@@ -718,6 +719,10 @@ footer ul {
     font-size: 110%;
     
 
+}
+
+#contact {
+    margin-top: 22%;
 }
 
 #leftside {
