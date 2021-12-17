@@ -687,7 +687,6 @@ footer ul {
     width: 60%;
 }
 
-
 #exhibitions img {
     opacity: 0.2;
     display: block;
@@ -696,8 +695,8 @@ footer ul {
     margin-top: 28%;
     margin-bottom: 3%;
     height: auto;
-    
-    
+    width: 80%;
+        
 }
 
 
@@ -717,47 +716,43 @@ footer ul {
 
     color: #0f0f0d;
     font-size: 110%;
-    
 
 }
 
-#contact {
-    margin-top: 22%;
-}
-
-#desegundo-design-contact {
-    
-    margin-left: 15%;
-    margin-right: auto;
-    margin-bottom: 10%;
-    width: 600px;
-}
-
-#desegundo-design-blurb {
-
-    margin: 225px 75px 70px 85px;
-
-}
 
 #leftside {
-
     
-    left: 7%
-
+    left: 8%
 }
 
 #middle {
-
     
-    left: 40.5%;
+    left: 38.5%;
 
 }
 
 #rightside {
-
     
-    right: 7%;
+    right: 8%;
 }
+    }
+
+    #contact {
+        margin-top: 22%;
+    }
+    
+    #desegundo-design-contact {
+        
+        margin-left: 15%;
+        margin-right: auto;
+        margin-bottom: 10%;
+        width: 600px;
+    }
+    
+    #desegundo-design-blurb {
+    
+        margin: 225px 75px 70px 85px;
+    
     }
 
     .middle li {
