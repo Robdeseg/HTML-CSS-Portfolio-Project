@@ -345,8 +345,6 @@ a:hover {
 
 }
 
-
-
 /*  exhihbitions styling */
 
 
@@ -566,7 +564,15 @@ footer ul {
 
 .main-menu-image {
     margin-top: 5%;
-    
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        height: auto;
+        width: 80%;
+
 }
 
 .row {
@@ -623,23 +629,51 @@ footer ul {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 27.5%;
+    margin-top: 28%;
     margin-bottom: 3%;
     height: auto;
     width: 90%;
+    
 }
 
-#exhibitions ul {
 
+#exhibitions ul {
     text-decoration: none;
     list-style-type: none;
     color: #0f0f0d;
-    
-    height: auto;
-    
+    height: 75%;
+    width: 23%;
     text-align: center;
     padding: 20px 10px 20px 10px;
+    top: 14%
     
+}
+
+#exhibitions {
+
+    color: #0f0f0d;
+    font-size: 110%;
+
+}
+
+#leftside {
+
+    
+    left: 8%
+
+}
+
+#middle {
+
+    
+    left: 38.5%;
+
+}
+
+#rightside {
+
+    
+    right: 8%;
 }
     }
 
@@ -650,6 +684,18 @@ footer ul {
         font-size: 80%;
         margin-top: 30%;
     }
+
+    /* making header responsive 
+@media screen and (max-width: 800px) {
+    
+#header-menu li {
+    text-align: center;
+    list-style-type: none;
+    margin: 10px 30px 10px 30px
+}
+}
+@media screen and (max-width: 600px)
+*/
 
 }
 
