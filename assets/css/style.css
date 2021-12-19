@@ -35,78 +35,39 @@ a:hover {
     color: #beb29e;
 }
 
-#title {
+#index-image {
     
-    font-size: 110%;
-    vertical-align: middle;
-    margin-top: 18%;
-    margin-left: 22%;
-    width: 55%;
+    display: block;
+    margin: auto;
+    width: 80%;
+    margin-top: 4%;
+    height: auto;
+    
+}
+
+#container {
+
+    position: relative;
+    
+}
+
+.index-text {
+
     position: absolute;
-
-    /* animates zoom effect on loading page */
-
-    animation-name: title-zoom;
-    animation-duration: 20s;
-    animation-fill-mode: forwards;
-}
-
-
-/* creates the zoom effect of title */
-
-@keyframes title-zoom {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(1.2);
-    }
-}
-
-/* creates the fading of the quote */
-
-.fading-blurb {
-    animation: 23s ease 0s normal forwards 1 fadeout;
+    font-size: 97%;
+    margin-left: 64%;
+    margin-right: 12%;
+    margin-top: 33%;
+    color: rgb(214, 209, 209);
     
 }
-
-@keyframes fadeout{
-    0% { opacity:1; }
-    66% { opacity:1; }
-    100% { opacity:0; }
-}
-
-#enter-image {
-    margin-top: 79px;
-   
-}
-
 
 
 #enter-click {
-    top: 40%;
-    left: 40%;
-    color: #1b1a17
+    
+    color: rgb(214, 209, 209);
     font-size: 200%;
-    position:absolute;
-    animation: 23s ease 0s normal forwards 1 fadein;
-    
 }
-
-@keyframes fadein{
-    0% { opacity:0; }
-    66% { opacity:0; }
-    100% { opacity:1; }
-}
-
-/*  
-#enter-click {
-    position: absolute;
-    
-    
-}
-*/
 
 #enter-click:hover {
     color: #beb29e;
