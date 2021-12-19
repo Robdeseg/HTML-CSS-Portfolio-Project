@@ -296,6 +296,10 @@ display: none;
     
     }
 
+    #fine-art-image-2 {
+display: none;
+    }
+
     #framed-image-responsive {
         display: none;
     }
@@ -464,7 +468,7 @@ footer ul {
 }
 
 .middle li {
-    padding-bottom: 15px
+    padding-bottom: 10px
 }
 
 .rightside li {
@@ -570,13 +574,6 @@ footer ul {
     
 }
 
-
-#enter-click {
-    
-    color: rgb(214, 209, 209);
-    font-size: 200%;
-}
-
     #title {
     
         font-size: 110%;
@@ -590,13 +587,6 @@ footer ul {
 
    .centered {
        left: 16%;
-
-   }
-
-   #enter-click {
-   top: 43%;
-   left: 43.5%;
-   font-size: 170%;
 
    }
 
@@ -615,7 +605,7 @@ footer ul {
 }
 
 .main-menu-image-2 {
-    margin-top: 5%;
+    
     margin-left: auto;
     margin-right: auto;
     margin-top: 2%;
@@ -626,19 +616,10 @@ footer ul {
 
 }
 
-#enter-image-2 {
-    margin-top: 3%;
-    
-}
-
-#enter {
-    margin-top: 10%;
-    
-}
 
 #title-over-photo {
-    margin-top: 5%;
-    margin-bottom: 3%;
+    margin-top: 3%;
+   
 }
 
 .row {
@@ -680,10 +661,25 @@ footer ul {
     margin-right: 8%;
 }
 
+#fine-art-image-2 {
+
+    opacity: 0.2;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 80%;
+
+}
+
+#fine-art-image-1 {
+display: none;
+}
+
 #fine-art-blurb {
     
     width: 70%;
-    top: 10%;
+    top: 7%;
     left: 15%;
     color: #030303;
     position: absolute;
@@ -697,12 +693,13 @@ footer ul {
 
 #framed-image-responsive {
     display: block;
-    padding-top: 3%;
+    padding-top: 7%;
     padding-bottom: 3%;
     margin-left: auto;
     margin-right: auto;
     height: auto;
-    width: 60%;
+    width: 95%;
+    
 }
 
 #exhibitions img {
