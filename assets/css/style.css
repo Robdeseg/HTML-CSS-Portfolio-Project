@@ -250,9 +250,6 @@ display: none;
 
 /*  fine art styling */
 
-
-
-
 #fine-art-image-1 {
 
     opacity: 0.2;
@@ -265,7 +262,6 @@ display: none;
     width: 75%;
     position: relative;
 
-    
     }
 
     #fine-art-image-2 {
@@ -312,7 +308,7 @@ display: none;
 
 }
 
-#exhibitions img {
+#gallery-pic {
     opacity: 0.2;
     display: block;
     margin-left: auto;
@@ -321,9 +317,14 @@ display: none;
     margin-bottom: 2%;
     height: auto;
     width: 75%;
-    
 
 }
+
+#gallery-pic-2
+{
+    display: none;
+}
+
 
 #exhibitions ul {
 
@@ -635,6 +636,8 @@ footer ul {
 #fine-art-image-2 {
 
     opacity: 0.2;
+    margin-top: 2%;
+    margin-bottom: 2%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -673,37 +676,6 @@ display: none;
     
 }
 
-#exhibitions img {
-    opacity: 0.2;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 28%;
-    margin-bottom: 3%;
-    height: auto;
-    width: 80%;
-    position: relative;
-        
-}
-
-
-#exhibitions ul {
-
-    float: left;
-    position: absolute;
-    text-decoration: none;
-    list-style-type: none;
-    color: #0f0f0d;
-    height: auto;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    padding: 20px 10px 20px 10px;
-    border: 2px solid #0f0f0d;
-    height: 35%;
-    width: 40%;
-    box-sizing: border-box;
-    top: 30%;
 
 }
 /* 
@@ -719,12 +691,49 @@ display: none;
 }
  */
  
-#exhibitions {
+ #gallery-pic {
+    display: none;
+        }
+
+ #exhibitions {
 
     color: #0f0f0d;
     font-size: 110%;
 
 }
+
+#gallery-pic-2 {
+
+    opacity: 0.2;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: auto;
+    width: 75%;
+    position: relative;
+
+    
+    }
+
+    #exhibitions ul {
+
+        float: left;
+        position: absolute;
+        text-decoration: none;
+        list-style-type: none;
+        color: #0f0f0d;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        padding: 20px 10px 20px 10px;
+        border: 2px solid #0f0f0d;
+        height: 35%;
+        width: 40%;
+        box-sizing: border-box;
+        top: 30%;
 
 
 #leftside {
