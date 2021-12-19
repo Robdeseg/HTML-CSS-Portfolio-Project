@@ -39,7 +39,7 @@ a:hover {
     
     display: block;
     margin: auto;
-    width: 85%;
+    width: 80%;
     margin-top: 2%;
     margin-bottom: 2%;
     height: auto;
@@ -59,10 +59,10 @@ a:hover {
 .index-text {
 
     position: absolute;
-    font-size: 97%;
-    margin-left: 66%;
-    margin-right: 10%;
-    margin-top: 36%;
+    font-size: 90%;
+    margin-left: 65%;
+    margin-right: 12%;
+    margin-top: 32%;
     color: rgb(214, 209, 209);
     
 }
