@@ -371,9 +371,9 @@ display: none;
 #contact {
     position: relative; 
     margin-top: 2%;
-    margin-bottom: 12%;
-    width: 500px;
-    height: 500px;
+    margin-bottom: 6%;
+    width: 425px;
+    height: 425px;
     margin-left: auto;
     margin-right: auto;
     
@@ -390,8 +390,8 @@ display: none;
     bottom: 0px;
     left: 0px;
     opacity: 0.3;
-    margin-bottom: -12%;
-    margin-top: 12%;
+    margin-bottom: -18%;
+    margin-top: 18%;
 }
 
 #contact-info {
@@ -738,11 +738,27 @@ display: none;
     right: 8%;
     
 }
+#contact {
     
+    margin-top: 16%;
+    margin-bottom: 6%;
+    width: 500px;
+    height: 500px;
 
-    #contact-info {
-        margin-top: 20%;
-    }
+    
+}
+
+#contact::before {
+
+    margin-bottom: -8%;
+    margin-top: 8%;
+}
+
+#contact-info {
+
+    padding: 160px 10px 140px 10px;
+    
+}
 
     
     #desegundo-design-contact {
