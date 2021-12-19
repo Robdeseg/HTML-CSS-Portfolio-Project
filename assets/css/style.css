@@ -87,8 +87,9 @@ a:hover {
     margin-right: auto;
     margin-top: 2%;
     margin-bottom: 2%;
+    width: 75%;
     height: auto;
-    width: 80%;
+    
 }
 
 .main-menu-image-2 {
@@ -216,32 +217,6 @@ display: none;
 }
 
 
-/*  introdcution styling */
-
-
-#introduction-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    height: auto;
-    width: 80%;
-    position: relative;   
-    
-}
-
-#introduction-blurb {
-    
-    padding-top: 2%;
-    width: 70%;  
-    position: absolute;   
-    top: 6%;
-    left: 15%;
-    color: rgb(255, 255, 255);
-
-}
-
 /*  selected works styling */
 
 #selected-works {
@@ -275,24 +250,21 @@ display: none;
 
 /*  fine art styling */
 
-#fine-art {
 
-    padding-top: 3%;
-    padding-bottom: 2%;
-    margin: auto;
-    position: relative;
-
-}
 
 
 #fine-art-image-1 {
 
-        opacity: 0.2;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        height: auto;
-        width: 80%;
+    opacity: 0.2;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: auto;
+    width: 75%;
+    position: relative;
+
     
     }
 
@@ -307,7 +279,7 @@ display: none;
 #fine-art-blurb {
     
     width: 50%;
-    top: 30%;
+    top: 25%;
     left: 25%;
     color: #030303;
     position: absolute;
@@ -345,11 +317,11 @@ display: none;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3%;
-    margin-bottom: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     height: auto;
     width: 75%;
-    position: relative;
+    
 
 }
 
@@ -368,7 +340,6 @@ display: none;
     border: 2px solid #0f0f0d;
     height: 35%;
     width: 20%;
-    box-sizing: border-box;
     top: 30%;
 
 }
@@ -398,8 +369,8 @@ display: none;
 
 #contact {
     position: relative; 
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     width: 500px;
     height: 500px;
     margin-left: auto;
@@ -410,7 +381,7 @@ display: none;
 #contact::before {
 
     content:"";
-    background: url('../images/globe.png') no-repeat center center; 
+    background: url('../images/globe.png') no-repeat center center;
     border-radius: 50%;
     position: absolute;
     top: 0px;
