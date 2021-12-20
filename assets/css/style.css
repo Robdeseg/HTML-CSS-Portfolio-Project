@@ -10,7 +10,9 @@ body {
     font-family: 'Cormorant Garamond', serif, 'Times New Roman';
     background-color: rgb(236, 230, 230);
     color: #1b1a17;
-    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 #page-container {
@@ -18,9 +20,7 @@ body {
     min-height: 100vh;
 }
 
-#content-wrap {
-    padding-bottom: 200px;
-}
+
 
 a {
     text-decoration: none;
@@ -87,7 +87,7 @@ a:hover {
     margin-right: auto;
     margin-top: 2%;
     margin-bottom: 2%;
-    width: 75%;
+    width: 78%;
     height: auto;
     
 }
@@ -258,8 +258,8 @@ display: none;
     margin-right: auto;
     margin-top: 2%;
     margin-bottom: 2%;
+    width: 78%;
     height: auto;
-    width: 75%;
     position: relative;
 
     }
@@ -305,7 +305,7 @@ display: none;
     color: #0f0f0d;
     font-size: 110%;
     position: relative;
-
+   
 }
 
 #gallery-pic {
@@ -316,8 +316,8 @@ display: none;
     margin-right: auto;
     margin-top: 2%;
     margin-bottom: 2%;
+    width: 78%;
     height: auto;
-    width: 75%;
 
 }
 
@@ -334,16 +334,15 @@ display: none;
     text-decoration: none;
     list-style-type: none;
     color: #0f0f0d;
-    
     height: auto;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
     padding: 20px 10px 20px 10px;
     border: 2px solid #0f0f0d;
-    height: 35%;
+    height: 25%;
     width: 20%;
-    top: 30%;
+    top: 32%;
 
 }
 
@@ -417,6 +416,7 @@ display: none;
     width: 100%;
     position: absolute;
     bottom: 0;
+   
     
 }
 
@@ -460,7 +460,7 @@ footer ul {
 
 #copyright {
     font-size: 80%;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 #desegundo-design {
