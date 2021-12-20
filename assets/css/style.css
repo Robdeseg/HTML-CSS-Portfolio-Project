@@ -309,6 +309,7 @@ display: none;
 }
 
 #gallery-pic {
+
     opacity: 0.2;
     display: block;
     margin-left: auto;
@@ -328,22 +329,44 @@ display: none;
 
 #exhibitions div {
 
-
+    float: left;
     position: absolute;
     text-decoration: none;
     list-style-type: none;
     color: #0f0f0d;
+    
     height: auto;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-    padding: 20px 10px 20px 30px;
+    padding: 20px 10px 20px 10px;
     border: 2px solid #0f0f0d;
     height: 35%;
     width: 20%;
     top: 30%;
 
 }
+
+#leftside {
+
+    position: absolute;
+    left: 10%
+
+}
+
+#middle {
+
+    position: absolute;
+    left: 39%;
+
+}
+
+#rightside {
+
+    position: absolute;
+    right: 10%;
+}
+
 
 
 
@@ -390,8 +413,8 @@ display: none;
 #footer {
     
     height: 200px;
-    width: 100%;
     clear: both;
+    width: 100%;
     position: absolute;
     bottom: 0;
     
@@ -526,23 +549,12 @@ footer ul {
     
 }
 
-    #title {
-    
-        font-size: 110%;
-        vertical-align: middle;
-        margin-top: 35%;
-        margin-left: 22%;
-        width: 55%;
-        position: absolute;
-
-    }
 
    .centered {
        left: 16%;
 
    }
 
-   
    #header-menu {
     font-size: 100%;
     letter-spacing: 3px;
@@ -658,13 +670,8 @@ display: none;
  #gallery-pic {
     display: none;
         }
+    
 
- #exhibitions {
-
-    color: #0f0f0d;
-    font-size: 110%;
-
-}
 
 #gallery-pic-2 {
 
@@ -675,53 +682,32 @@ display: none;
     margin-top: 2%;
     margin-bottom: 2%;
     height: auto;
-    width: 75%;
-    position: relative;
-
+    width: 80%;
     
     }
 
-    #exhibitions div {
-
-
+    
+    #leftside {
+    
         position: absolute;
-        text-decoration: none;
-        list-style-type: none;
-        color: #0f0f0d;
-        height: auto;
-        margin-right: auto;
-        margin-left: auto;
-        text-align: center;
-        padding: 20px 10px 20px 10px;
-        border: 2px solid #0f0f0d;
-        height: 35%;
-        width: 20%;
-        top: 30%;
+        left: 10%
     
     }
+    
+    #middle {
+    
+        position: absolute;
+        left: 38.5%;
+    
+    }
+    
+    #rightside {
+    
+        position: absolute;
+        right: 10%;
     }
 
-#leftside {
-    
-    left: 8%;
 
-   
-}
-
-#middle {
-    
-    left: 38.5%;
-
-    
-
-}
-
-#rightside {
-    
-    right: 8%;
-    
-    
-}
 #contact {
     
     margin-top: 16%;
@@ -770,6 +756,9 @@ display: none;
     .leftside li {
         padding: 4px;
     }
+
+}
+
 
 /* Small devices ie phones (350px and down) */
 @media screen and (max-width: 350px) {
