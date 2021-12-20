@@ -13,6 +13,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    
 }
 
 #page-container {
@@ -20,6 +21,9 @@ body {
     min-height: 100vh;
 }
 
+#content-wrap {
+    margin-bottom: 200px;
+}
 
 
 a {
@@ -87,7 +91,7 @@ a:hover {
     margin-right: auto;
     margin-top: 2%;
     margin-bottom: 2%;
-    width: 78%;
+    width: 75.8%;
     height: auto;
     
 }
@@ -424,6 +428,8 @@ footer ul {
     float: left;
     text-decoration: none;
     list-style-type: none;
+    margin-top: 20px;
+    
 }
 
 .leftside {
@@ -504,11 +510,21 @@ footer ul {
     letter-spacing: 4px;
 }
 
-
 .index-text {
 
-    margin-top: 35%;
-    
+    margin-top: 35%;    
+}
+
+.main-menu-image {
+    width: 75%;
+}
+
+#fine-art-image-1 {
+    width: 77%;
+}
+
+#gallery-pic {
+    width: 77%;
 }
 
 }
@@ -686,6 +702,13 @@ display: none;
     
     }
 
+    #exhibitions div {
+
+        height: 35%;
+        width: 20%;
+        top: 30%;
+    
+    }
     
     #leftside {
     
