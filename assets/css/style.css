@@ -647,7 +647,7 @@ footer ul {
 .column {
     flex: 30%;
     max-width: 45%;
-    padding: 0 15px 30px 0;
+    padding: 0 15px 0 0;
     margin: auto;
 }
 
@@ -847,25 +847,38 @@ display: none;
 }
 
 
-/* Small devices ie phones (350px and down) */
-@media screen and (max-width: 350px) {
+/* Small devices ie phones (380px and down) */
+@media screen and (max-width: 380px) {
+
+    #index-image-portrait {
+    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        height: 100vh;
+        object-fit: cover;
+        object-position: 100% 0;
+    }
+    
+    .index-text {
+    
+        position: absolute;
+        font-size: 80%;
+        margin-left: 5%;
+        margin-right: 0%;
+        margin-top: 74%;
+        color: rgb(214, 209, 209);
+        
+    }
 
     #title {
         font-size: 80%;
         margin-top: 30%;
     }
 
-    /* making header responsive 
-@media screen and (max-width: 800px) {
-    
-#header-menu li {
-    text-align: center;
-    list-style-type: none;
-    margin: 10px 30px 10px 30px
-}
-}
-@media screen and (max-width: 600px)
-*/
+
+
 
 }
 
