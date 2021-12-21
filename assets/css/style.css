@@ -217,6 +217,9 @@ display: none;
     text-decoration: underline;
 }
 
+#nav-bar-menu {
+    display: none;
+}
 
 /*  selected works styling */
 
@@ -891,39 +894,40 @@ display: none;
     }
 
 
- 
-/* 
+ /* Nav Bar */
 
-/*  styling of nav bar 
+ #header-menu {
+    display: none;
+}
+
+
+/*  styling of nav bar */
 
 html {
     overflow: hidden;
     -webkit-overflow-scrolling: touch;
     height: 100%;
   }
+
   
-  body {
-    margin: 20px 0;
+  #nav-bar-menu {
+    display: block;
+    height: 100%;
+    width: auto;
+    font-size: 120%;
+    letter-spacing: 6px;
     overflow: auto;
-   
-    color: #fff;
-  } 
-  
-  a {
-    color: #fff;
-    text-decoration: none;
+     
+  }
+
+  #menu1 a {
+      text-decoration: none;
   }
   
-  .p-menu1{
-     height: 100%;
-  }
-  
-  
-  */
-  
-  /* Hamburger 
+  /* Hamburger */
+
   .hamburger1 {
-    height: 45px;
+    height: 30px;
     margin: 10px;
     display: -ms-grid;
     display: grid;
@@ -933,10 +937,10 @@ html {
   }
   
   .hamburger1 div {
-    background-color: rgb(61, 61, 61);
+    background-color: #1b1a17;
     position: relative;
     width: 40px;
-    height: 5px;
+    height: 2px;
     margin-top: 7px;
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
@@ -955,7 +959,7 @@ html {
   #toggle1:checked + .hamburger1 .meat {
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
-    margin-top: -5px;
+    margin-top: -2px;
   }
   
   #toggle1:checked + .hamburger1 .bottom {
@@ -968,10 +972,10 @@ html {
   }
   
   
-  /* Menu 
+  /* Menu */
   .menu1 {
     width: 100%;
-    background-color: #02173F;
+    background-color: rgb(236, 230, 230);
     margin: 0;
     display: -ms-grid;
     display: grid;
@@ -998,18 +1002,17 @@ html {
     margin-bottom: 40px;
   }
   
-  .link1 {
+  .menu-options {
     width: 100%;
     margin: 0;
     padding: 10px 0;
-    font: 700 20px 'Oswald', sans-serif;
+    font: 700 20px 'Cormorant Garamond', serif, 'Times New Roman';
   }
   
-  .link1:hover {
-    background-color: #fff;
-    color: rgb(61, 61, 61);
+  .menu-options:hover {
+    background-color: rgb(236, 230, 230);
+    color: #1b1a17;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
   }
 
-*/
