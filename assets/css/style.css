@@ -18,9 +18,6 @@ body {
     min-height: 100vh;
 }
 
-#content-wrap {
-    margin-bottom: 150px;
-}
 
 
 a {
@@ -39,12 +36,11 @@ a:hover {
 #index-image {
     
     display: block;
-    margin: auto;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin: 5%;
     width: auto;
     height: 100vh;
     object-fit: cover;
+    box-shadow: 10px 10px 10px 10px rgb(236, 230, 230) inset;
     
 }
 
@@ -66,6 +62,7 @@ a:hover {
     margin-right: 10%;
     margin-top: 38%;
     color: rgb(214, 209, 209);
+
     
 }
 
@@ -88,7 +85,6 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     margin-top: 2%;
-    margin-bottom: 2%;
     width: auto;
     height: 70vh;
     object-fit: cover;
@@ -260,7 +256,6 @@ display: none;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2%;
-    margin-bottom: 2%;
     width: auto;
     height: 70vh;
     object-fit: cover;
@@ -319,7 +314,6 @@ display: none;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2%;
-    margin-bottom: 2%;
     width: auto;
     height: 70vh;
     object-fit: cover;
@@ -376,7 +370,17 @@ display: none;
 
 /*  contact styling */
 
+#contact-wrapper {
 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    width: auto;
+    height: 70vh;
+    object-fit: cover;
+
+}
 #contact {
     position: relative; 
     margin-top: 0%;
@@ -385,6 +389,7 @@ display: none;
     height: 500px;
     margin-left: auto;
     margin-right: auto;
+    
     
 }
 
@@ -409,7 +414,9 @@ display: none;
     text-align: center;
     position: relative;
     
+    
 }
+
 
 
 
@@ -417,10 +424,10 @@ display: none;
 
 #footer {
     
-    height: 200px;
+    height: 150px;
     clear: both;
     width: 100%;
-    position: absolute;
+    position: initial;
     bottom: 0;
    
     
@@ -514,9 +521,9 @@ footer ul {
 }
 
 .index-text {
-    margin-left: 68%;
-    margin-right: 8%;
-    margin-top: 37%;    
+    margin-left: 69%;
+    margin-right: 7%;
+    margin-top: 39%;    
 }
 
 #contact {
