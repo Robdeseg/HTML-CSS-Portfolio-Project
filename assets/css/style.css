@@ -860,7 +860,6 @@ display: none;
     
         display: block;
         margin: auto;
-        
         width: auto;
         height: 100vh;
         object-fit: cover;
@@ -900,11 +899,15 @@ display: none;
     display: none;
 }
 
+.current {
+    text-decoration: underline;
+}
+
 
 /*  styling of nav bar */
 
 html {
-    overflow: hidden;
+    
     -webkit-overflow-scrolling: touch;
     height: 100%;
   }
@@ -917,26 +920,25 @@ html {
     font-size: 120%;
     letter-spacing: 6px;
     overflow: auto;
-     
   }
 
-  #menu1 a {
+  #header-menu-2 a {
       text-decoration: none;
   }
   
   /* Hamburger */
 
-  .hamburger1 {
+  .hamburger {
     height: 30px;
     margin: 10px;
     display: -ms-grid;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     justify-items: center;
-    z-index: 120;
+    z-index: 250;
   }
   
-  .hamburger1 div {
+  .hamburger div {
     background-color: #1b1a17;
     position: relative;
     width: 40px;
@@ -946,34 +948,34 @@ html {
     transition: all 0.2s ease-in-out;
   }
   
-  #toggle1 {
+  #toggle {
     display: none;
   }
   
-  #toggle1:checked + .hamburger1 .top {
+  #toggle:checked + .hamburger .top {
     -webkit-transform: rotate(-45deg);
             transform: rotate(-45deg);
     margin-top: 22.5px;
   }
   
-  #toggle1:checked + .hamburger1 .meat {
+  #toggle:checked + .hamburger .middle {
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
     margin-top: -2px;
   }
   
-  #toggle1:checked + .hamburger1 .bottom {
+  #toggle:checked + .hamburger .bottom {
     -webkit-transform: scale(0);
             transform: scale(0);
   }
   
-  #toggle1:checked ~ .menu1 {
-    height: 340px;
+  #toggle:checked ~ #header-menu-2 {
+    height: 450px;
   }
   
   
   /* Menu */
-  .menu1 {
+  #header-menu-2 {
     width: 100%;
     background-color: rgb(236, 230, 230);
     margin: 0;
@@ -989,17 +991,17 @@ html {
     height: 0px;
     overflow: hidden;
     transition: height .4s ease;
-    z-index: 120;
+    z-index: 250;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
   }
   
-  .menu1 a:first-child {
-    margin-top: 40px;
+  #header-menu-2 a:first-child {
+    margin-top: 50px;
   }
   
-  .menu1 a:last-child {
-    margin-bottom: 40px;
+  #header-menu-2 a:last-child {
+    margin-bottom: 50px;
   }
   
   .menu-options {
@@ -1009,10 +1011,11 @@ html {
     font: 700 20px 'Cormorant Garamond', serif, 'Times New Roman';
   }
   
-  .menu-options:hover {
+  .menu-options-2:hover {
     background-color: rgb(236, 230, 230);
     color: #1b1a17;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
   }
 
+  
