@@ -254,6 +254,10 @@ display: none;
 
 /*  fine art styling */
 
+#fine-art {
+    position: relative;
+}
+
 #fine-art-image-1 {
 
     opacity: 0.2;
@@ -264,7 +268,7 @@ display: none;
     width: auto;
     height: 70vh;
     object-fit: cover;
-    position: relative;
+    
 
     }
 
@@ -892,8 +896,12 @@ display: none;
         
     }
 
+   
+
 
  /* Nav Bar */
+
+ /* https://codepen.io/ngochuynh/pen/yKrvVZ */
 
  #header-menu {
     display: none;
