@@ -618,8 +618,16 @@ footer ul {
 
 
    .centered {
-       left: 16%;
+    top: 38%;
+    left: 49.5%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(255, 255, 255);
+   }
 
+    #title-faded { 
+        
+        opacity: .8;
    }
 
    #header-menu {
@@ -636,7 +644,6 @@ footer ul {
 }
 
 .main-menu-image-2 {
-    
     margin-top: 2%;
     margin-bottom: 2%;
     display: block;
