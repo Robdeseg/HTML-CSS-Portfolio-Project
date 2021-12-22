@@ -108,7 +108,8 @@ a:hover {
 .centered {
     position: absolute;
     top: 40%;
-    left: 25%;
+    left: 22%;
+    font-size: 150%;
 }
 
 #title-faded {
@@ -592,6 +593,10 @@ a:hover {
 
 /* Medium landcape devices ie tablets (1100px and down) */
 @media screen and (max-width: 1100px) {
+
+    .centered {
+        left: 18%;
+    }
 
     #contact {
     width: 450px;
