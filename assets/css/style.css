@@ -552,9 +552,10 @@ display: none;
 
 #exhibitions div {
 
-    height: 33%;
+    height: 27%;
     width: 20%;
     top: 30%;
+    
 
 }
 
@@ -1080,6 +1081,35 @@ display: none;
             object-fit: cover;
             position: relative;
         
+        }
+
+        /* Contact styling */
+
+        #contact {
+            width: 100vw;
+            height: 225px;
+            margin-left: 0%;
+            margin-right: -0%;
+            margin-top: 20%;
+            display: block; 
+        
+        }
+
+        #contact::before {
+            border-radius: 0%;
+        }
+
+        #contact-ceiling {
+            width: 100vw;
+            height: 300px;
+        }
+
+        #contact-info { 
+    
+            text-align: center;
+            padding-top: 3%;
+            font-size: 70%;
+            
         }
 
 
