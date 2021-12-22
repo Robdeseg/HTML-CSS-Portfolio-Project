@@ -806,19 +806,19 @@ display: none;
     #leftside {
         position: absolute;
         margin-top: -22%;
-        left: 25%;
+        left: 24%;
     
     }
     
     #middle {
        margin-top: 9%;
-       left: 25%;
+       left: 24%;
     }
     
     #rightside {
     
        margin-top: 40%;
-       left: 13%;
+       left: 11%;
     }
 
     .height-wrapper {
@@ -1007,6 +1007,80 @@ display: none;
     }
 
    
+    /* Exhibitions styling */
+
+    #gallery-pic-2 {
+
+        opacity: 0.2;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        width: 100vw;
+        height: 520px;
+        object-fit: cover;
+        position: relative;
+        
+        }
+    
+        #exhibitions {
+            position: relative;
+            
+        }
+    
+        #exhibitions div {
+    
+            float: left;
+            position: absolute;
+            text-decoration: none;
+            list-style-type: none;
+            color: #0f0f0d;
+            height: auto;
+            margin-right: auto;
+            margin-left: auto;
+            text-align: center;
+            padding: 10px 10px 20px 10px;
+            border: 2px solid #0f0f0d;
+            height: 18%;
+            width: 70%;
+            font-size: 70%;
+            
+
+        }
+    
+        
+        #leftside {
+            position: absolute;
+            margin-top: -40%;
+            left: 10.9%;
+        
+        }
+        
+        #middle {
+           margin-top: 12%;
+           left: 10.9%;
+        }
+        
+        #rightside {
+        
+           margin-top: 64%;
+           left: 9.1%;
+        }
+    
+        .height-wrapper {
+    
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 2%;
+            margin-bottom: 4%;
+            width: 100vw;
+            height: 600px;
+            object-fit: cover;
+            position: relative;
+        
+        }
 
 
  /* Nav Bar */
