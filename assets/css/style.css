@@ -1053,19 +1053,19 @@ display: none;
         
         #leftside {
             position: absolute;
-            margin-top: -40%;
+            margin-top: -32%;
             left: 10.9%;
         
         }
         
         #middle {
-           margin-top: 12%;
+           margin-top: 10%;
            left: 10.9%;
         }
         
         #rightside {
         
-           margin-top: 64%;
+           margin-top: 52%;
            left: 9.1%;
         }
     
@@ -1087,11 +1087,13 @@ display: none;
 
         #contact {
             width: 100vw;
-            height: 225px;
+            height: 270px;
             margin-left: 0%;
             margin-right: -0%;
-            margin-top: 20%;
+            margin-top: 8%;
             display: block; 
+            border-top: 30px solid #1b1a17;
+            border-bottom: 30px solid #1b1a17;
         
         }
 
@@ -1101,13 +1103,13 @@ display: none;
 
         #contact-ceiling {
             width: 100vw;
-            height: 300px;
+            height: 400px;
         }
 
         #contact-info { 
     
             text-align: center;
-            padding-top: 3%;
+            padding-top: 8%;
             font-size: 70%;
             
         }
