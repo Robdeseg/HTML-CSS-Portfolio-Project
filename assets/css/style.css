@@ -174,7 +174,7 @@ a:hover {
 
 #desegundo-design-blurb {
 
-    margin: 150px 250px 75px 250px;
+    margin: 100px 250px 75px 250px;
 
 }
 
@@ -188,8 +188,8 @@ a:hover {
 
 #back-to-platphotog {
     text-align: center;
-    margin-top: 80px;
-    margin-bottom: 3%;
+    margin-top: 50px;
+    margin-bottom: 5%;
     opacity: .5;
 }
 
@@ -567,17 +567,17 @@ a:hover {
 
 
     #contact {
-        width: 500px;
-        height: 500px;
-        margin-left: 30%;
-        margin-right: -30%;
+        width: 450px;
+        height: 450px;
+        margin-left: 33%;
+        margin-right: -33%;
 
     }
 
     #contact-info {
 
         text-align: center;
-        padding-top: 22%;
+        padding-top: 20%;
 
     }
 
@@ -601,8 +601,6 @@ a:hover {
 
 }
 
-}
-
 #contact-info {
 
     text-align: center;
@@ -610,7 +608,8 @@ a:hover {
 
 }
 
-/* Medium devices ie portrait tablets (770px and down) */
+
+/* Medium devices ie portrait tablets (900px and down) */
 @media screen and (max-width: 770px) {
 
 
@@ -873,7 +872,7 @@ a:hover {
 
     #desegundo-design-blurb {
 
-        margin: 225px 75px 70px 85px;
+        margin: 200px 75px 70px 85px;
 
     }
 
