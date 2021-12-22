@@ -489,7 +489,7 @@ display: none;
 }
 
 #desegundo-design {
-    opacity: .4;
+    opacity: .5;
 }
 
 #email {
@@ -907,18 +907,15 @@ display: none;
     }
 
     .main-menu-image-2 {
-            margin-top: 2%;
-            margin-bottom: 2%;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 100vw;
-            height: auto;
-            object-fit: cover;
-            opacity: .9;
-            
-        }
-        
+        margin-top: 2%;
+        margin-bottom: 2%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100vw;
+        height: auto;
+        object-fit: cover;
+        opacity: .9;
 
     }
 
@@ -1063,7 +1060,7 @@ html {
     position: initial;
     bottom: 0;
     font-size: 80%;
-    text-align: center;
+    
    
 }
 
@@ -1071,11 +1068,14 @@ html {
     padding: 2px;
 }
 
+.footer-2-rightside li {
+    padding: 2px;
+}
+
 #footer-2 ul {
-    float: left;
+    
     text-decoration: none;
     list-style-type: none;
-    margin-top: 10px;
     
 }
 
@@ -1084,12 +1084,23 @@ html {
     text-align: left;
     width: 43%;
     margin-left: 3%;
-    padding-bottom: 30px;
     margin-top: 0;
 }
 
 .footer-2-rightside {
     float: right;
+    text-align: right;
+    width: 43%;
+    margin-right: 3%;
+}
+
+.footer-2-bottom {
+    position: absolute;
+    bottom: -2%;
+    left: 25%;
+    margin-right: 25%;
+    margin-top: 3%;
+       
 }
 
 
@@ -1105,9 +1116,8 @@ html {
 
     border: .5px solid;
     border-color: #1b1a17;
-    margin-right: 3%;
+    margin-top: 12%;
     padding-right: 5px;
-    
 }
 
 #submit-mob-footer {
@@ -1127,8 +1137,6 @@ html {
     padding: 20px 0 20px 0;
 }
 
-#desegundo-design {
-    opacity: .4;
-}
+
 
   
