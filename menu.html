@@ -24,7 +24,7 @@
             <a class="menu-options" href="contact.html">Contact</a>
         </nav>
         <section id="nav-bar-menu">
-            <nav id="navbar" class="navigation" role="navigation">
+            <nav id="navbar" class="navigation">
                 <input id="toggle" type="checkbox" />
                 <label class="hamburger" for="toggle">
                     <div class="top"></div>
@@ -40,12 +40,11 @@
                 </nav>
             </nav>
         </section>
-</body>
 </header>
 <section id="title-over-photo">
-    <img class="main-menu-image" srcset="assets/images/2-elephant-dust-cloud.jpg"
+    <img class="main-menu-image" src="assets/images/2-elephant-dust-cloud.jpg"
         alt="two elephants next to each other, one of them blowing out dust from trunk">
-    <img class="main-menu-image-2" srcset="assets/images/portrait-elephant.jpg"
+    <img class="main-menu-image-2" src="assets/images/portrait-elephant.jpg"
         alt="a single, baby elephant blowing out dust from its trunk">
     <h1 class="centered">WILLEM PLATERINK
         <span id="title-faded">PHOTOGRAPHY</span>
@@ -68,13 +67,15 @@
     </ul>
     <ul class="middle">
         <li>
-            <label for="first">Join Our Mailing List:</label>
+            <form action="https://www.sendmydatahere.com" method="post">
+            <label for="email">Join Our Mailing List:</label>
             <br>
-            <input type="email" id="email" placeholder="enter email address" method="post"></input>
+            <input type="email" id="email" placeholder="enter email address"></input>
             <br>
             <input type="submit" id="submit">
+        </form>
         </li>
-        <li id="copyright">© Willem Platerink Photography 2008-2021</li>
+        <li class="copyright">© Willem Platerink Photography 2008-2021</li>
     </ul>
     <ul class="rightside">
         <li>
@@ -83,7 +84,7 @@
         <li>
             <a href="#">Terms and Conditions</a>
         </li>
-        <li id="desegundo-design">
+        <li class="desegundo-design">
             <a href="contact-form.html">site by RDS DESIGN</a>
         </li>
     </ul>
@@ -110,16 +111,18 @@
         <li>
             <a href="#">Terms and Conditions</a>
         </li>
-        <li id="desegundo-design">
+        <li class="desegundo-design">
             <a href="contact-form.html">site by RDS DESIGN</a>
         </li>
         <li id="email-and-button">
-            <input type="email" id="submit-mob-footer-email" placeholder="Join Our Mailing List" method="post"></input>
-            <input type="submit" id="submit-mob-footer" value="→"></input>
+            <form action="https://www.sendmydatahere.com" method="post">
+            <input type="email" id="submit-mob-footer-email" placeholder="Join Our Mailing List">
+            <input type="submit" id="submit-mob-footer" value="→">
+        </form>
         </li>
     </ul>
     <div class="footer-2-bottom">
-        <h4 id="copyright">© Willem Platerink Photography 2008-2021</h4>
+        <h4 class="copyright">© Willem Platerink Photography 2008-2021</h4>
     </div>
 </footer>
 

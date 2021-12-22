@@ -488,12 +488,12 @@ a:hover {
     padding: 3px;
 }
 
-#copyright {
+.copyright {
     font-size: 80%;
     padding-top: 20px;
 }
 
-#desegundo-design {
+.desegundo-design {
     opacity: .5;
 }
 
@@ -1417,7 +1417,7 @@ a:hover {
         color: #b8b2a9;
     }
 
-    #copyright {
+    .copyright {
         text-align: center;
         font-size: 80%;
         padding: 20px 0 20px 0;
