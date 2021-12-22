@@ -49,6 +49,10 @@ a:hover {
     display: none;
 }
 
+#index-image-phone {
+    display: none;
+}
+
 #container {
 
     position: relative;
@@ -591,6 +595,10 @@ display: none;
     display: none;
 }
 
+#index-image-phone {
+    display: none;
+}
+
 #index-image-portrait {
     
     display: block;
@@ -870,13 +878,31 @@ display: none;
 /* Small devices ie phones (380px and down) */
 @media screen and (max-width: 380px) {
 
+    #index-image {
+        display: none;
+    }
+
     #index-image-portrait {
+        
+        display: none;
     
+    }
+    
+    #index-image-phone {
+
         display: block;
         margin: auto;
-        width: auto;
-        height: 100vh;
+        width: 100vw;
+        height: auto;
         object-fit: cover;
+        
+    }
+    
+  
+
+    #index-body {
+
+        background-color: #020202;
     }
     
     #container {
@@ -888,10 +914,10 @@ display: none;
     .index-text {
     
         position: absolute;
-        font-size: 100%;
-        margin-left: 46%;
-        margin-right: 12%;
-        margin-top: 2%;
+        font-size: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 98%;
         color: rgb(214, 209, 209);
         
     }
