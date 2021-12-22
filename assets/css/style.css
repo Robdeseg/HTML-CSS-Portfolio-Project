@@ -244,7 +244,7 @@ display: none;
 .column {
     flex: 36%;
     max-width: 45%;
-    padding: 0 40px 0 0;
+    
     margin: auto;
 }
 
@@ -666,6 +666,12 @@ display: none;
     
 }
 
+#selected-works {
+
+    padding-bottom: 15px;
+
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -675,7 +681,6 @@ display: none;
 .column {
     flex: 30%;
     max-width: 45%;
-    padding: 0 15px 0 0;
     margin: auto;
 }
 
@@ -952,6 +957,55 @@ display: none;
         left: 49%;
     }
 
+    /* Fine Art styling */
+
+    #fine-art-image-2 {
+
+        opacity: 0.2;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100vw;
+        height: 600px;
+        object-fit: cover;
+    
+    }
+    
+    #fine-art-image-1 {
+    display: none;
+    }
+    
+    #fine-art-blurb {
+        
+        width: auto;
+        top: 2%;
+        left: 4%;
+        right: 4%;
+        font-size: 95%;
+        color: #030303;
+        position: absolute;
+        
+    }
+    
+    #fine-art-extention {
+        display: none
+    }
+    
+    #framed-image-responsive {
+        display: block;
+        padding-top: 3%;
+        padding-top: 7%;
+        padding-bottom: 3%;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        width: 60%;
+        width: 95%;
+    
+    }
+
    
 
 
@@ -1083,7 +1137,8 @@ html {
     height: auto;
     clear: both;
     width: 100%;
-    position: initial;
+    
+    position: relative;
     bottom: 0;
     font-size: 80%;
     
@@ -1108,7 +1163,7 @@ html {
 .footer-2-leftside {
     float: left;
     text-align: left;
-    width: 43%;
+    width: 40%;
     margin-left: 3%;
     margin-top: 0;
 }
@@ -1116,16 +1171,14 @@ html {
 .footer-2-rightside {
     float: right;
     text-align: right;
-    width: 43%;
+    width: 50%;
     margin-right: 3%;
 }
 
 .footer-2-bottom {
-    position: absolute;
-    bottom: -2%;
-    left: 25%;
-    margin-right: 25%;
-    margin-top: 3%;
+
+    display: inline-block;
+    margin: 10% 25% 1% 25%;
        
 }
 
