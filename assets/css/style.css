@@ -183,11 +183,14 @@ display: none;
     margin-top: 5px;
     background-color: rgb(236, 230, 230);
     outline: none;
+    padding: 5px;
 }
 
 #back-to-platphotog {
     text-align: center;
     margin-top: 80px;
+    margin-bottom: 3%;
+    opacity: .5;
 }
 
 #return-to-home {
@@ -833,6 +836,7 @@ display: none;
         height: 77vh;
         object-fit: cover;
         position: relative;
+        margin-top: 0%;
     
     }
 
@@ -846,11 +850,6 @@ display: none;
     
     }
     
-    .height-wrapper {
-        
-        margin-top: 0%;
-       
-    }
 
     #desegundo-design-contact {
         
@@ -1113,6 +1112,59 @@ display: none;
             font-size: 70%;
             
         }
+
+        /* RDS Design styling */
+
+        #desegundo-design-parent {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 2%;
+            margin-bottom: 4%;
+            width: 100vw;
+            height: auto;
+            object-fit: cover;
+            
+        }
+
+        #desegundo-design-contact {
+        
+            margin-left: 2%;
+            margin-right: auto;
+            width: 100vw;
+            
+            
+
+        }
+        
+        #desegundo-design-blurb {
+        
+            all: revert;
+            width: 85vw;
+            text-align: justify;
+            object-fit: cover;
+            margin: 30px 30px 30px 10px;
+        
+        }
+
+        #services-required {
+            width: 300px;
+        }
+
+        #submit-2 {
+            margin-left: 37.5%;
+        }
+
+        #back-to-platphotog {
+            margin-top: 30px;
+            text-align: center;
+            margin-right: 4%;
+            
+
+        }
+
+
+        
 
 
  /* Nav Bar */
