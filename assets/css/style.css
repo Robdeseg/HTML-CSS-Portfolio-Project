@@ -502,9 +502,9 @@ a:hover {
     }
 
     #exhibitions div {
-        height: 27%;
+        height: 34%;
         width: 20%;
-        top: 30%;
+        top: 27%;
     }
 }
 
@@ -548,7 +548,7 @@ a:hover {
     /* medium devices ie portrait tablets (900px and down) */
     @media screen and (max-width: 770px) {
 
-        /* index styling */
+        /* index styling for portrait tablets */
 
         #index-image {
             display: none;
@@ -579,7 +579,7 @@ a:hover {
             margin-top: 78%;
         }
 
-        /* menu styling */
+        /* menu styling for portrait tablets */
 
         .centered {
             top: 38%;
@@ -615,7 +615,7 @@ a:hover {
             object-fit: cover;
         }
 
-        /*  selected works styling */
+        /*  selected works styling for portrait tablets */
 
         #selected-works {
             padding-bottom: 15px;
@@ -635,7 +635,7 @@ a:hover {
             margin-top: 40px;
         }
 
-        /*  fine art styling */
+        /*  fine art styling for portrait tablets */
 
         #fine-art-image-2 {
             opacity: 0.2;
@@ -692,7 +692,7 @@ a:hover {
             position: relative;
         }
 
-        /* exhibition styling */
+        /* exhibition styling for portrait tablets */
 
         #exhibitions div {
             height: 15%;
@@ -721,7 +721,7 @@ a:hover {
             margin-top: 0%;
         }
 
-        /* contact styling */
+        /* contact styling for portrait tablets */
 
         #contact {
             width: 500px;
@@ -732,7 +732,7 @@ a:hover {
             display: block;
         }
 
-        /* rds design styling */
+        /* rds design styling for portrait tablets */
 
         #desegundo-design-contact {
 
@@ -745,7 +745,7 @@ a:hover {
             margin: 200px 85px 70px 85px;
         }
 
-        /* footer styling */
+        /* footer styling for portrait tablets */
 
         .leftside {
             margin-left: 8%;
