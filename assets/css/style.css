@@ -1051,9 +1051,6 @@ a:hover {
         }
 
 
-
-
-
         /* Nav Bar */
 
         /* https://codepen.io/ngochuynh/pen/yKrvVZ */
@@ -1062,8 +1059,12 @@ a:hover {
             display: none;
         }
 
-
         /*  styling of nav bar */
+
+        html {
+            -webkit-overflow-scrolling: touch;
+            height: 100%;
+        }
 
         #nav-bar-menu {
             display: block;
@@ -1073,8 +1074,6 @@ a:hover {
             letter-spacing: 6px;
             overflow: auto;
         }
-
-
 
         /* Hamburger */
 
@@ -1124,7 +1123,8 @@ a:hover {
         }
 
 
-        /* Menu */
+        /* dropdown menu */
+
         #header-menu-2 {
             width: 100%;
             background-color: rgb(236, 230, 230);
@@ -1209,7 +1209,7 @@ a:hover {
         .footer-2-rightside {
             float: right;
             text-align: right;
-            width: 43%;
+            width: 50%;
             margin-right: 3%;
         }
 
