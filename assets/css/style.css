@@ -394,57 +394,6 @@ a:hover {
     color: #b8b2a9;
 }
 
-
-/*  footer styling */
-#footer-2 {
-    display: none;
-}
-#footer-1 {
-    height: 150px;
-    clear: both;
-    width: 100%;
-    position: initial;
-    bottom: 0;
-}
-#footer-1 ul {
-    float: left;
-    text-decoration: none;
-    list-style-type: none;
-    margin-top: 20px;
-}
-.leftside {
-    float: left;
-    width: 25%;
-    margin-left: 10%;
-}
-.middle {
-    text-align: center;
-    float: left;
-    width: 30%;
-}
-.rightside {
-    float: left;
-    text-align: right;
-    width: 25%;
-    margin-right: 10%;
-}
-.middle li {
-    padding-bottom: 10px
-}
-.rightside li {
-    padding: 3px;
-}
-.leftside li {
-    padding: 3px;
-}
-.copyright {
-    font-size: 80%;
-    padding-top: 20px;
-}
-.desegundo-design {
-    opacity: .5;
-}
-
 /* rds design styling */
 
 #email-2 {
@@ -598,6 +547,7 @@ a:hover {
         margin-left: 28%;
         margin-right: -28%;
     }
+}
 
     /* medium devices ie portrait tablets (900px and down) */
     @media screen and (max-width: 770px) {
@@ -1221,7 +1171,6 @@ a:hover {
             padding: 10px 0;
             font: 700 20px 'Cormorant Garamond', serif, 'Times New Roman';
         }
-    }
 
         /*  footer styling */
 
@@ -1271,7 +1220,7 @@ a:hover {
         .footer-2-rightside {
             float: right;
             text-align: right;
-            width: 50%;
+            width: 43%;
             margin-right: 3%;
         }
 
