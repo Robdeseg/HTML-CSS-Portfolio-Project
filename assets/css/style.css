@@ -32,10 +32,6 @@ a:hover {
     color: #b8b2a9;
 }
 
-#nav-bar-phone {
-    visibility: hidden;
-}
-
 /* index styling */
 
 #index-image {
@@ -1069,13 +1065,6 @@ a:hover {
 
         /*  styling of nav bar */
 
-        html {
-
-            -webkit-overflow-scrolling: touch;
-            height: 100%;
-        }
-
-
         #nav-bar-menu {
             display: block;
             height: 100%;
@@ -1099,7 +1088,7 @@ a:hover {
             z-index: 250;
         }
 
-        .hamburger div {
+        .hamburger span {
             background-color: #1b1a17;
             position: relative;
             width: 40px;
