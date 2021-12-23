@@ -463,7 +463,8 @@ a:hover {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 5%;
-    opacity: .5;
+    font-size: 110%;
+    opacity: .8;
 }
 
 #return-to-home {
