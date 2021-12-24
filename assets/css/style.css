@@ -200,10 +200,10 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     height: auto;
-    width: 50%;
+    width: 47%;
 }
 
-/*  exhibitions styling */
+/* exhibitions styling */
 
 #exhibitions {
     color: #0f0f0d;
@@ -473,6 +473,10 @@ a:hover {
     border-radius: 12px;
     font-family: 'Cormorant Garamond', serif, 'Times New Roman';
     font-size: 105%;
+}
+
+#return-to-home:hover {
+    color: #b8b2a9;
 }
 
 /* media queries */
@@ -872,17 +876,17 @@ a:hover {
         }
 
         #leftside {
-            margin-top: -38%;
+            margin-top: -32%;
             left: 10.9%;
         }
 
         #middle {
-            margin-top: 10%;
+            margin-top: 14%;
             left: 10.9%;
         }
 
         #rightside {
-            margin-top: 58%;
+            margin-top: 60%;
             left: 9.1%;
         }
 
