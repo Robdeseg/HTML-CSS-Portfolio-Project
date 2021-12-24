@@ -905,8 +905,8 @@ a:hover {
             margin-right: -0%;
             margin-top: 8%;
             display: block;
-            border-top: 30px solid #1b1a17;
-            border-bottom: 30px solid #1b1a17;
+            border-top: 20px solid #1b1a17;
+            border-bottom: 20px solid #1b1a17;
         }
 
         #contact::before {
@@ -915,11 +915,11 @@ a:hover {
 
         #contact-ceiling {
             width: 100vw;
-            height: 400px;
+            height: 355px;
         }
 
         #contact-info {
-            padding-top: 8%;
+            padding-top: 10%;
             font-size: 70%;
         }
 
@@ -1094,7 +1094,7 @@ a:hover {
             float: right;
             text-align: right;
             width: 55%;
-            margin-right: 3%;
+            margin-right: 4%;
         }
 
         .footer-2-bottom {
