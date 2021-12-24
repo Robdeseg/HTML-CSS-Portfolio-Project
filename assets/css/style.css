@@ -390,6 +390,12 @@ a:hover {
 
 /* rds design styling */
 
+.rdsdesign {
+    vertical-align: middle;
+    margin: auto;
+    width: 600px;
+}
+
 .name-and-email {
     background-color: rgb(236, 230, 230);
     color: #1b1a17;
@@ -417,14 +423,8 @@ a:hover {
     color: #b8b2a9;
 }
 
-#desegundo-design-contact {
-    vertical-align: middle;
-    margin: auto;
-    width: 600px;
-}
-
 #desegundo-design-blurb {
-    margin: 100px 250px 75px 250px;
+    margin: 10% 0 10% 0
 }
 
 #services-required {
@@ -730,16 +730,14 @@ a:hover {
 
         /* rds design styling for portrait tablets */
 
-        #desegundo-design-contact {
-
-            margin-left: 15%;
-            margin-right: auto;
-            margin-bottom: 10%;
+        .rdsdesign {
+            margin-top: 27%;
+            width: 400px;
         }
 
-        #desegundo-design-blurb {
-            margin: 200px 85px 70px 85px;
-        }
+        #submit-2 {
+            margin: 5% 40% 0 40%;
+        } 
 
         /* footer styling for portrait tablets */
 
@@ -939,6 +937,10 @@ a:hover {
 
         #submit-2 {
             margin-left: 37.5%;
+        }
+
+        .name-and-email {
+            size: 10;
         }
 
         #back-to-platphotog {
