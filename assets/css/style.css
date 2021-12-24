@@ -56,9 +56,9 @@ a:hover {
 
 .index-text {
     position: absolute;
-    font-size: 100%;
-    margin-left: 73%;
-    margin-right: 3%;
+    font-size: 110%;
+    margin-left: 71%;
+    margin-right: 5%;
     margin-top: 49%;
     color: rgb(214, 209, 209);
 }
@@ -163,7 +163,7 @@ a:hover {
 }
 
 #fine-art-image-1 {
-    opacity: 0.2;
+    opacity: 0.1;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -183,10 +183,11 @@ a:hover {
 
 #fine-art-blurb {
     width: 50%;
-    top: 25%;
+    top: 30%;
     left: 25%;
     color: #030303;
     position: absolute;
+    font-size: 110%;
 }
 
 #fine-art-extention {
@@ -277,7 +278,7 @@ a:hover {
     position: absolute;
     margin-left: 34%;
     margin-right: -34%;
-    margin-top: 4%;
+    margin-top: 3.5%;
     margin-bottom: 6%;
 }
 
@@ -389,7 +390,7 @@ a:hover {
 
 /* rds design styling */
 
-#email-2 {
+.name-and-email {
     background-color: rgb(236, 230, 230);
     color: #1b1a17;
     border: .5px solid;
@@ -414,28 +415,6 @@ a:hover {
 
 #submit-2:hover {
     color: #b8b2a9;
-}
-
-#fname {
-    background-color: rgb(236, 230, 230);
-    color: #1b1a17;
-    border: .5px solid;
-    border-color: #1b1a17;
-    padding: 5px;
-    margin-top: 5px;
-    font-family: 'Cormorant Garamond', serif, 'Times New Roman';
-    font-size: 105%;
-}
-
-#lname {
-    background-color: rgb(236, 230, 230);
-    color: #1b1a17;
-    border: .5px solid;
-    border-color: #1b1a17;
-    padding: 5px;
-    margin-top: 5px;
-    font-family: 'Cormorant Garamond', serif, 'Times New Roman';
-    font-size: 105%;
 }
 
 #desegundo-design-contact {
@@ -490,9 +469,20 @@ a:hover {
     }
 
     .index-text {
+        font-size: 105%;
         margin-left: 72%;
         margin-right: 4%;
-        margin-top: 39%;
+        margin-top: 46%;
+    }
+    
+    #framed-image {
+        width: 50%;
+    }
+
+    #exhibitions div {
+        height: 28%;
+        width: 20%;
+        top: 27%;
     }
 
     #contact {
@@ -502,16 +492,17 @@ a:hover {
         margin-bottom: 6%;
     }
 
-    #exhibitions div {
-        height: 34%;
-        width: 20%;
-        top: 27%;
-    }
 }
 
 /* laptop screens (1280 and down) */
 @media screen and (max-width: 1280px) {
 
+    .index-text {
+        margin-left: 71%;
+        margin-right: 3%;
+        margin-top: 45%;
+        font-size: 100%;
+    }
     #contact {
         width: 450px;
         height: 450px;
@@ -523,11 +514,9 @@ a:hover {
         padding-top: 20%;
     }
 
-    .index-text {
-        margin-left: 73%;
-        margin-right: 4%;
-        margin-top: 40%;
-        font-size: 87%;
+    #fine-art-blurb {
+        top: 28%;
+        font-size: 100%;
     }
 }
 
@@ -536,6 +525,20 @@ a:hover {
 
     .centered {
         left: 18%;
+    }
+
+    #framed-image {
+        width: 55%;
+    }
+
+    #exhibitions div {
+        height: 30%;
+        width: 22%;
+        top: 27%;
+    }
+
+    #middle {
+        left: 38%;
     }
 
     #contact {
@@ -547,7 +550,7 @@ a:hover {
 }
 
     /* medium devices ie portrait tablets (900px and down) */
-    @media screen and (max-width: 770px) {
+    @media screen and (max-width: 900px) {
 
         /* index styling for portrait tablets */
 
@@ -568,10 +571,9 @@ a:hover {
         }
 
         .index-text {
-            font-size: 100%;
             margin-left: 48%;
             margin-right: 10%;
-            margin-top: 78%;
+            margin-top: 82%;
         }
 
         /* menu styling for portrait tablets */
@@ -650,7 +652,7 @@ a:hover {
 
         #fine-art-blurb {
             width: 70%;
-            top: 9%;
+            top: 11%;
             left: 15%;
         }
 
@@ -661,12 +663,11 @@ a:hover {
         #framed-image-responsive {
             display: block;
             padding-top: 3%;
-            padding-top: 7%;
+            padding-top: 8%;
             padding-bottom: 3%;
             margin-left: auto;
             margin-right: auto;
             height: auto;
-            width: 60%;
             width: 95%;
         }
 
@@ -690,17 +691,17 @@ a:hover {
         /* exhibition styling for portrait tablets */
 
         #exhibitions div {
-            height: 15%;
+            height: 16%;
             width: 50%;
         }
 
         #leftside {
-            margin-top: -22%;
+            margin-top: -16%;
             left: 24%;
         }
 
         #middle {
-            margin-top: 9%;
+            margin-top: 12%;
             left: 24%;
         }
 
@@ -785,7 +786,6 @@ a:hover {
             margin: auto;
             width: 100vw;
             height: auto;
-            
             object-fit: cover;
         }
 
@@ -797,7 +797,7 @@ a:hover {
             font-size: 90%;
             margin-left: 3%;
             margin-right: 4%;
-            margin-top: 101%;
+            margin-top: 100%;
             color: rgb(214, 209, 209);
         }
 
@@ -847,7 +847,7 @@ a:hover {
 
         #fine-art-blurb {
             width: auto;
-            top: 2%;
+            top: 3%;
             left: 4%;
             right: 4%;
             font-size: 95%;
@@ -927,19 +927,14 @@ a:hover {
 
         #desegundo-design-contact {
             margin-left: 2%;
-            margin-right: auto;
+            margin-right: 2%;
             width: 100vw;
         }
 
         #desegundo-design-blurb {
-            width: 93vw;
             text-align: justify;
             object-fit: cover;
-            margin: 30px 30px 30px 10px;
-        }
-
-        #services-required {
-            width: 300px;
+            margin: 30px 20px 30px 10px;
         }
 
         #submit-2 {
