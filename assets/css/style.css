@@ -57,9 +57,9 @@ a:hover {
 .index-text {
     position: absolute;
     font-size: 100%;
-    margin-left: 71%;
-    margin-right: 5%;
-    margin-top: 44%;
+    margin-left: 73%;
+    margin-right: 3%;
+    margin-top: 49%;
     color: rgb(214, 209, 209);
 }
 
@@ -244,17 +244,14 @@ a:hover {
 }
 
 #leftside {
-    position: absolute;
     left: 10%
 }
 
 #middle {
-    position: absolute;
     left: 39%;
 }
 
 #rightside {
-    position: absolute;
     right: 10%;
 }
 
@@ -280,7 +277,7 @@ a:hover {
     position: absolute;
     margin-left: 34%;
     margin-right: -34%;
-    margin-top: 2%;
+    margin-top: 4%;
     margin-bottom: 6%;
 }
 
@@ -295,12 +292,12 @@ a:hover {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.15;
+    opacity: 0.3;
 }
 
 #contact-info {
     text-align: center;
-    padding-top: 23%;
+    padding-top: 22%;
 }
 
 /*  footer styling */
@@ -566,10 +563,6 @@ a:hover {
             object-fit: cover;
         }
 
-        #container {
-            position: relative;
-        }
-
         .index-text {
             font-size: 100%;
             margin-left: 48%;
@@ -788,6 +781,7 @@ a:hover {
             margin: auto;
             width: 100vw;
             height: auto;
+            
             object-fit: cover;
         }
 
@@ -795,14 +789,10 @@ a:hover {
             background-color: #020202;
         }
 
-        #container {
-            position: relative;
-        }
-
         .index-text {
             font-size: 90%;
-            margin-left: 5%;
-            margin-right: 5%;
+            margin-left: 3%;
+            margin-right: 4%;
             margin-top: 101%;
             color: rgb(214, 209, 209);
         }
@@ -1091,7 +1081,7 @@ a:hover {
         .footer-2-leftside {
             float: left;
             text-align: left;
-            width: 40%;
+            width: 30%;
             margin-left: 3%;
             margin-top: 0;
         }
@@ -1099,7 +1089,7 @@ a:hover {
         .footer-2-rightside {
             float: right;
             text-align: right;
-            width: 50%;
+            width: 55%;
             margin-right: 3%;
         }
 
