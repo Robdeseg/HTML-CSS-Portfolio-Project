@@ -269,8 +269,6 @@ a:hover {
     object-fit: cover;
 }
 
-
-
 #contact {
     width: 450px;
     height: 450px;
@@ -491,7 +489,6 @@ a:hover {
         margin-top: 3%;
         margin-bottom: 6%;
     }
-
 }
 
 /* laptop screens (1280 and down) */
@@ -518,6 +515,16 @@ a:hover {
         top: 25%;
         font-size: 100%;
     }
+
+    #exhibitions div {
+        height: 28%;
+        width: 23%;
+        top: 27%;
+    }
+    
+    #middle {
+        left: 37.5%;
+    }
 }
 
 /* medium landcape devices ie tablets (1100px and down) */
@@ -532,13 +539,22 @@ a:hover {
     }
 
     #exhibitions div {
-        height: 30%;
-        width: 22%;
+        font-size: 90%;
+        height: 27%;
+        width: 28%;
         top: 27%;
     }
 
+    #leftside {
+        left: 2%
+    }
+    
     #middle {
-        left: 38%;
+        left: 35%;
+    }
+    
+    #rightside {
+        right: 2%;
     }
 
     #contact {
@@ -691,7 +707,7 @@ a:hover {
         /* exhibition styling for portrait tablets */
 
         #exhibitions div {
-            height: 16%;
+            height: 18%;
             width: 50%;
         }
 
@@ -707,7 +723,7 @@ a:hover {
 
         #rightside {
             margin-top: 40%;
-            left: 11%;
+            left: 3%;
         }
 
         .height-wrapper {
@@ -766,7 +782,7 @@ a:hover {
         }
     }
 
-    /* mobile devices (450px and down) */
+    /* mobile phone devices (450px and down) */
     @media screen and (max-width: 450px) {
 
         /* index styling for mobiles */
@@ -875,17 +891,17 @@ a:hover {
 
         #leftside {
             margin-top: -29%;
-            left: 10.9%;
+            left: 12%;
         }
 
         #middle {
             margin-top: 13%;
-            left: 10.9%;
+            left: 12%;
         }
 
         #rightside {
             margin-top: 55%;
-            left: 9.1%;
+            left: 2%;
         }
 
         .height-wrapper {
@@ -1140,20 +1156,20 @@ a:hover {
 
         #leftside {
             margin-top: -32%;
-            left: 10.9%;
+            
         }
 
         #middle {
             margin-top: 15%;
-            left: 10.9%;
+            
         }
 
         #rightside {
             margin-top: 62%;
-            left: 9.1%;
+            left: 3.5%;
         }
 
-        /* exhibitions styling for small mobiles */
+        /* contact styling for small mobiles */
 
         #contact-info {
             padding-top: 10%;
