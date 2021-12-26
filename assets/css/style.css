@@ -205,8 +205,6 @@ a:hover {
     width: auto;
 }
 
-
-
 /* exhibitions styling */
 
 #exhibitions {
@@ -271,13 +269,11 @@ a:hover {
     object-fit: cover;
 }
 
-#contact-ceiling {
-    position: relative;
-}
+
 
 #contact {
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
     position: absolute;
     margin-left: 34%;
     margin-right: -34%;
@@ -302,7 +298,7 @@ a:hover {
 #contact-info {
     text-align: center;
     padding-top: 22%;
-}
+}    
 
 /*  footer styling */
 
@@ -316,6 +312,7 @@ a:hover {
     width: 100%;
     position: initial;
     bottom: 0;
+
 }
 
 #footer-1 ul {
@@ -518,7 +515,7 @@ a:hover {
     }
 
     #fine-art-blurb {
-        top: 28%;
+        top: 25%;
         font-size: 100%;
     }
 }
@@ -734,7 +731,7 @@ a:hover {
         /* rds design styling for portrait tablets */
 
         .rdsdesign {
-            margin-top: 27%;
+            margin-top: 25%;
             width: 400px;
         }
 
@@ -926,6 +923,10 @@ a:hover {
 
         /* rds design styling for mobiles */
 
+    .rdsdesign {
+        margin: 3%;
+    } 
+
         #desegundo-design-contact {
             margin-left: 2%;
             margin-right: 2%;
@@ -935,19 +936,17 @@ a:hover {
         #desegundo-design-blurb {
             text-align: justify;
             object-fit: cover;
-            margin: 30px 20px 30px 10px;
+            margin: 5px 20px 30px 10px;
         }
 
         #submit-2 {
-            margin-left: 37.5%;
-        }
-
-        .name-and-email {
-            size: 10;
+            display: flex;
+            justify-content: center;
         }
 
         #back-to-platphotog {
-            margin: 30px 0 15px 0;
+            display: flex;
+            justify-content: center;
         }
 
         /* header styling for mobiles */
