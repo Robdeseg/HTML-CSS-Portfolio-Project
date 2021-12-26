@@ -766,7 +766,7 @@ a:hover {
         }
     }
 
-    /* small devices ie mobiles (450px and down) */
+    /* mobile devices (450px and down) */
     @media screen and (max-width: 450px) {
 
         /* index styling for mobiles */
@@ -874,17 +874,17 @@ a:hover {
         }
 
         #leftside {
-            margin-top: -32%;
+            margin-top: -29%;
             left: 10.9%;
         }
 
         #middle {
-            margin-top: 14%;
+            margin-top: 13%;
             left: 10.9%;
         }
 
         #rightside {
-            margin-top: 60%;
+            margin-top: 55%;
             left: 9.1%;
         }
 
@@ -898,7 +898,7 @@ a:hover {
 
         #contact {
             width: 100vw;
-            height: 270px;
+            height: 290px;
             margin-left: 0%;
             margin-right: -0%;
             margin-top: 8%;
@@ -917,7 +917,7 @@ a:hover {
         }
 
         #contact-info {
-            padding-top: 10%;
+            padding-top: 8%;
             font-size: 70%;
         }
 
@@ -1130,5 +1130,32 @@ a:hover {
             text-align: center;
             font-size: 80%;
             padding: 20px 0 20px 0;
+        }
+    }
+
+        /* small mobile devices (350px and down) */
+    @media screen and (max-width: 350px) {
+
+        /* exhibitions styling for small mobiles */
+
+        #leftside {
+            margin-top: -32%;
+            left: 10.9%;
+        }
+
+        #middle {
+            margin-top: 15%;
+            left: 10.9%;
+        }
+
+        #rightside {
+            margin-top: 62%;
+            left: 9.1%;
+        }
+
+        /* exhibitions styling for small mobiles */
+
+        #contact-info {
+            padding-top: 10%;
         }
     }
