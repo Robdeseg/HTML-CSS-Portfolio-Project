@@ -195,14 +195,17 @@ a:hover {
 }
 
 #framed-image {
+   object-fit: contain;
     padding-top: 1%;
     padding-bottom: 1%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: auto;
-    width: 47%;
+    height: 70vh;
+    width: auto;
 }
+
+
 
 /* exhibitions styling */
 
