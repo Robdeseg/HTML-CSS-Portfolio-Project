@@ -4,7 +4,7 @@ Willem Platerink is an internationally acclaimed photographer who specialises in
 
 <a href="https://robdeseg.github.io/HTML-CSS-Portfolio-Project/" target="_blank" rel="noopener">Willem Platerink Photography</a>
 
-![A picture showing Willem Platerink Responsivity](../assets/images/)
+![A picture showing Willem Platerink Responsivity across four screen sizes.](../assets/images/)
 
 # Contents
 
@@ -35,6 +35,7 @@ Willem Platerink is an internationally acclaimed photographer who specialises in
 
 ## Tone and Inspiration
 
+    The tone and inspiration for the style and feel of the website came from two sources. The first being the photographer himself. I was lucky to be able to interview him at length and discuss both his work and his philosophies on life. These became important considerations when desiging the feel of the website from one page to the next. The second, of course, are the photographs themselves, and these were what drove the overall look of the site. It was important that his work sat within the website and looked as though they belonged there and nowhere else. 
 
 [Back to top](<#contents>)
 
