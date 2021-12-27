@@ -310,7 +310,6 @@ a:hover {
     width: 100%;
     position: initial;
     bottom: 0;
-
 }
 
 #footer-1 ul {
@@ -387,6 +386,10 @@ a:hover {
 }
 
 /* rds design styling */
+
+#cell-break {
+    display: none;
+}
 
 .rdsdesign {
     vertical-align: middle;
@@ -477,6 +480,10 @@ a:hover {
         width: 50%;
     }
 
+    #exhibitions {
+        font-size: 100%;
+    }
+
     #exhibitions div {
         height: 28%;
         width: 20%;
@@ -516,12 +523,24 @@ a:hover {
 
     #exhibitions div {
         height: 28%;
-        width: 23%;
+        width: 25%;
         top: 27%;
     }
     
+    #leftside {
+        left: 8%
+    }
+    
     #middle {
-        left: 37.5%;
+        left: 36.6%;
+    }
+    
+    #rightside {
+        right: 8%;
+    }
+
+    #desegundo-design-blurb {
+        margin-top: 25%;
     }
 }
 
@@ -674,7 +693,7 @@ a:hover {
 
         #fine-art-blurb {
             width: 70%;
-            top: 10%;
+            top: 11%;
             left: 15%;
         }
 
@@ -684,8 +703,7 @@ a:hover {
 
         #framed-image-responsive {
             display: block;
-            padding-top: 3%;
-            padding-top: 8%;
+            padding-top: 5%;
             padding-bottom: 3%;
             margin-left: auto;
             margin-right: auto;
@@ -945,14 +963,19 @@ a:hover {
 
         /* rds design styling for mobiles */
 
-    .rdsdesign {
-        margin: 3%;
-    } 
+        #cell-break {
+            display: block;
+        }
+
+        .rdsdesign {
+            margin: 3%;
+            width: 100vw;
+        } 
 
         #desegundo-design-contact {
             margin-left: 2%;
             margin-right: 2%;
-            width: 100vw;
+            width: 97vw;
         }
 
         #desegundo-design-blurb {
