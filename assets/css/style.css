@@ -853,6 +853,7 @@ a:hover {
             width: 100vw;
             height: auto;
             opacity: .9;
+            margin-bottom: 2%;
         }
 
         .centered {
@@ -864,7 +865,7 @@ a:hover {
         /* selected works styling for mobiles */
 
         #selected-works {
-            padding-bottom: 20px;
+            padding-bottom: 10px;
         }
 
         .column img {
@@ -876,6 +877,7 @@ a:hover {
         #fine-art-image-2 {
             width: 100vw;
             height: 600px;
+            margin-bottom: 2%;
         }
 
         #fine-art-image-1 {
@@ -899,6 +901,7 @@ a:hover {
         #gallery-pic-2 {
             width: 100vw;
             height: 520px;
+            margin-bottom: 2%;
         }
 
         #exhibitions {

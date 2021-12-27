@@ -35,27 +35,43 @@ Willem Platerink is an internationally acclaimed photographer who specialises in
 
 ## Tone and Inspiration
 
-    The tone and inspiration for the style and feel of the website came from two sources. The first being the photographer himself. I was lucky to be able to interview him at length and discuss both his work and his philosophies on life. These became important considerations when desiging the essence of the website and how it felt. The second, of course, are the photographs themselves, and these drove the overall look of the site. It was important that his work sat within the pages of the site and looked as though they belonged there and nowhere else. 
+    The tone and inspiration for the style and feel of the website came from two sources. The first being the photographer himself. I was lucky to be able to interview him at length and discuss both his work and his philosophies on life. These became important considerations when desiging the essence of the website and how it felt. The second, of course, are the photographs themselves, and these drove the overall aesthetic. It was important that his work sat within the pages of a site that looked seamless alongside them.
 
 [Back to top](<#contents>)
 
 ## Features
 
-    Form follows function. Always. And although that does not mean that compromise is necessary to achieve one before the other, it is important that the overall UX is seamless. The type of visitors to this site are high net worth individuals who expect the world they live in and everything about it to work and work well. This drove the overriding principle of creating a simple and clean aesthetic, that is easy to use and intuitive while giving visitors to the site a visual experience as well.
+    Form follows function. Always. And although that does not mean achieving one means compromising on the other, the overall UX was the principle consideration behind the design. The traffic through this site will be high net worth individuals who live in a world where everything works and works well. This drove the overriding goal of creating a simple and clean aesthetic, that is easy to use and intuitive.
 
  * ### Landing Page
 
+    The landing page is designed to create the first and lasting impression of the kind of man Willem Platerink and, by extention, the sort of work he aims to create. There is an Entry button that takes you straight through to the Home Page, but equally, the site traffic here will not be rushing towards an impulse purchase. They are here to indulge in an artist and his work.
+
  * ### Header
+
+    The header is clear, clean and simple. Each heading explains precisely what it is, while the header itslef lends a spacial awareness to where you are in the site. It operates as the compass to help steer you both forwards and backwards through each page of the site. 
+
+    For the mobile phone screen size, it was decided that a dropdown menu would work better than simply shrinking the header menu further. This mantaines ease of access to each page even on a small screen.
 
  * ### Home
 
+    The home page is the business and the brand wrapped into one and depicted fron tand center on the home page. It tells you what this site is and the kind of traffic it expects. It also establishes the framework of header and footer for each page that follows throughout the site for a sense of uniformity.
+
  * ### Selected Works
+
+    Selected works are a carefully curated selection of the artist's work. On the bigger screens they are displayed in two rows, while on the smaller one just one so that the user can sensibly appreciate each image even on the tablet and mobile sized screens.
 
  * ### Fine Art
 
+    Each photo presented by the artist is availible for purchase on a limited print run. This section aims to show you what to expect the finished, framed product to look like.
+
  * ### Fine Art Example
 
+    This page is only accessible on the bigger screens to give the user a nice clear image of the artist's framed work. On smaller screens that image is displayed alongside the paragraph discussing the framing process. It is not expected that serious research before a purchase would take place on a smaller screened device.
+
  * ### Exhibitions
+
+    This section can easily be changed every month to incorporate new and forthcoming exhibitions as and when they arise. 
 
  * ### Contact
 
@@ -64,6 +80,12 @@ Willem Platerink is an internationally acclaimed photographer who specialises in
  * ### RDS Design
 
  * ### Future Amendments
+
+    Selected works to have clickable photos that would expand to fill whichever screen they were on.
+
+    RDS Design website would be styled independently.
+
+    Privacy Policy and Terms & Conditions completed.
 
 [Back to top](<#contents>)
 
