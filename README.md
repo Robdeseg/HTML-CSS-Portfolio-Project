@@ -113,13 +113,15 @@ Willem Platerink is an internationally acclaimed photographer who specialises in
     
     The validator testing threw up an issue with having a div as a child of a label element in the dropdown menu for mobile phones. This was resolved by using spans instead, achieving the same end result.
 
-    Conversely, in the Contact section, h3 elements are not allowed as child elements of a span. I changed the spans to div and again achieved the same result.
+    Conversely, in the Contact section, it stated h3 elements are not allowed as child elements of a span. I changed the spans to div and again achieved the same result.
 
-    There was also an eroneous closing tab for an input field which was uncecessary and removed, as well as a stray end tag for a div in the fine art section which was also removed.
+    It also said that the value of the attribute of one of the label elements in the Contact Form page needed to match the ID of a non-hidden form control. In this instance, I checked the label for="services-required" and the corresponding textarea id="services-required". They appeared to match. I copied and pasted one to the other to be sure and under further testing, no issues arose.
+
+    Finally, there was an eroneous closing tab for an input field which was uncecessary and removed, as well as a stray end tag for a div in the Fine Art section which was also removed.
 
     * ### Unresolved Bugs
 
-    The validator testing stated that the value of the attribute of one of the label elements in the Contact Form page needed to match the ID of a non-hidden form control. In this instance, I checked the label for="services-required" and the corresponding textarea id="services-required". They matched, but the error message pertained. It did not, however, impde functionality.
+    On the index page for mobile phones only, there is a black line that appears above the photograph. It is not intended to be there, though currently I cannot work out how to remove it.
 
  * ### Validator Testing
 
@@ -138,15 +140,26 @@ Willem Platerink is an internationally acclaimed photographer who specialises in
 [Back to top](<#contents>)
 
 ## Deployment
+    
+ * #### This site was deployed to Github Pages using the following steps:
 
+    1. First go to the project repository page [here.](https://github.com/Robdeseg/HTML-CSS-Portfolio-Project)
+    2. From there, click on the Settings tab on the righthand side of the menu section across the top:
+    ![Settings Tab](assets/images/settings-tab.png)
+    3. Once you are in Settings, click on the Pages tab on the left, second from the bottom.
+    ![Pages Tab](assets/images/pages-tab.png)
+    4. You will then be in [Github Pages](https://github.com/Robdeseg/HTML-CSS-Portfolio-Project/settings/pages) where you will need to select the *Source*. From the *Branch* dropdown menu, choose *Main*.
+    ![Selecting Source](assets/images/source-main.png)
+    5. Once you click *Save* the site is deployed amd ready to share.
+        
 
 [Back to top](<#contents>)
 
 ## Credits
 
-W3Schools helped with the arrangement of the photos into two columns in the selected works section.
+W3Schools helped with the arrangement of the photos into two columns in the selected works section using flexbox.
 
-Coder Coder helped resolve the issue of amending the opacity of the background image (the globe) and not the text on top of it.
+Coder Coder helped resolve the issue of amending the opacity of the background image (the globe) and not the text on top of it using ::before.
 
 [Back to top](<#contents>)
 
