@@ -642,8 +642,7 @@ a:hover {
         }
 
         .main-menu-image-2 {
-            margin-top: 2%;
-            margin-bottom: 2%;
+            margin-top: 4%;
             display: block;
             margin-left: auto;
             margin-right: auto;
@@ -655,7 +654,7 @@ a:hover {
         /*  selected works styling for portrait tablets */
 
         #selected-works {
-            padding-bottom: 15px;
+            padding-bottom: 0px;
         }
 
         .row {
@@ -676,8 +675,7 @@ a:hover {
 
         #fine-art-image-2 {
             opacity: 0.2;
-            margin-top: 2%;
-            margin-bottom: 2%;
+            margin-top: 4%;
             display: block;
             margin-left: auto;
             margin-right: auto;
@@ -707,7 +705,7 @@ a:hover {
             margin-left: auto;
             margin-right: auto;
             height: auto;
-            width: 95%;
+            width: 98%;
         }
 
         #gallery-pic {
@@ -720,7 +718,6 @@ a:hover {
             margin-left: auto;
             margin-right: auto;
             margin-top: 2%;
-            margin-bottom: 2%;
             width: auto;
             height: 77vh;
             object-fit: cover;
@@ -728,6 +725,10 @@ a:hover {
         }
 
         /* exhibition styling for portrait tablets */
+
+        #gallery-pic-2 {
+            margin-top: 4%;
+        }
 
         #exhibitions div {
             height: 18%;
