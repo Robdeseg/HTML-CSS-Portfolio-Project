@@ -75,17 +75,21 @@ Willem Platerink is an internationally acclaimed photographer who specialises in
 
  * ### Contact
 
+    The contact section is designed to illustrate the international reach of the artist's work, while remaining true to the ethos of clean and simple functionality.
+
  * ### Footer
+
+    Much like the header, the footer maintains the ethos of simplicity that runs throughout. There is a very simply form for those interested in joining the mailing list that requires only an email. The rest of the items all have their purpose without overfilling or cluttering the bottom of the site. 
 
  * ### RDS Design
 
+    The link to the page for RDS Design is intentionally discreet. It is there without detracting from the main focus of the site. For those interested further, a simple form can be filled out on a seperate page. The website for RDS Design is under construction and a link to it will apear in further versions of this site. For now, the contact page for RDS Design is intentionally simple and inline with the aesthetic of the rest of the site so as not to jar.
+
  * ### Future Amendments
 
-    Selected works to have clickable photos that would expand to fill whichever screen they were on.
+    It is intended that each photo in the Selected Works section will be clickable and once done so it will expand to fill the whole screen so that the user can see the level of detail that goes into each photograph.
 
-    RDS Design website would be styled independently.
-
-    Privacy Policy and Terms & Conditions completed.
+    Privacy Policy and Terms & Conditions do not currently have any content and this will be added once the lawyers are satisfied with the content thereof.
 
 [Back to top](<#contents>)
 
