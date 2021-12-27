@@ -39,7 +39,6 @@ a:hover {
     height: auto;
     width: 100vw;
     object-fit: cover;
-    box-shadow: 10px 10px 10px 10px rgb(236, 230, 230) inset;
 }
 
 #index-image-portrait {
@@ -606,7 +605,7 @@ a:hover {
             display: block;
             margin: auto;
             width: 100vw;
-            height: 100vh;
+            height: auto;
             object-fit: cover;
         }
 
@@ -821,7 +820,6 @@ a:hover {
 
         #index-image-phone {
             display: block;
-            margin: auto;
             width: 100vw;
             height: auto;
             object-fit: cover;
@@ -973,7 +971,7 @@ a:hover {
         } 
 
         #desegundo-design-contact {
-            margin-left: 2%;
+            margin-left: 1%;
             margin-right: 2%;
             width: 97vw;
         }
@@ -981,7 +979,7 @@ a:hover {
         #desegundo-design-blurb {
             text-align: justify;
             object-fit: cover;
-            margin: 5px 20px 30px 10px;
+            margin: 5px 20px 30px 3px;
         }
 
         #submit-2 {
@@ -992,6 +990,7 @@ a:hover {
         #back-to-platphotog {
             display: flex;
             justify-content: center;
+            margin-top: 30px;
         }
 
         /* header styling for mobiles */
