@@ -194,8 +194,8 @@ a:hover {
 }
 
 #framed-image {
-   object-fit: contain;
-  
+    object-fit: contain;
+
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -295,7 +295,7 @@ a:hover {
 #contact-info {
     text-align: center;
     padding-top: 22%;
-}    
+}
 
 /*  footer styling */
 
@@ -352,10 +352,6 @@ a:hover {
 .copyright {
     font-size: 80%;
     padding-top: 20px;
-}
-
-.desegundo-design {
-    opacity: .5;
 }
 
 #email {
@@ -474,7 +470,7 @@ a:hover {
         margin-right: 4%;
         margin-top: 46%;
     }
-    
+
     #framed-image {
         width: 50%;
     }
@@ -504,6 +500,7 @@ a:hover {
         margin-top: 45%;
         font-size: 100%;
     }
+
     #contact {
         width: 450px;
         height: 450px;
@@ -525,15 +522,15 @@ a:hover {
         width: 25%;
         top: 27%;
     }
-    
+
     #leftside {
         left: 8%
     }
-    
+
     #middle {
         left: 36.6%;
     }
-    
+
     #rightside {
         right: 8%;
     }
@@ -571,11 +568,11 @@ a:hover {
     #leftside {
         left: 2%
     }
-    
+
     #middle {
         left: 35%;
     }
-    
+
     #rightside {
         right: 2%;
     }
@@ -588,622 +585,622 @@ a:hover {
     }
 }
 
-    /* medium devices ie portrait tablets (900px and down) */
-    @media screen and (max-width: 900px) {
+/* medium devices ie portrait tablets (900px and down) */
+@media screen and (max-width: 900px) {
 
-        /* index styling for portrait tablets */
+    /* index styling for portrait tablets */
 
-        #index-image {
-            display: none;
-        }
-
-        #index-image-phone {
-            display: none;
-        }
-
-        #index-image-portrait {
-            display: block;
-            margin: auto;
-            width: 100vw;
-            height: auto;
-            object-fit: cover;
-        }
-
-        .index-text {
-            margin-left: 50%;
-            margin-right: 8%;
-            margin-top: 80%;
-            font-size: 105%;
-        }
-
-        /* menu styling for portrait tablets */
-
-        .centered {
-            top: 38%;
-            left: 49.5%;
-            transform: translate(-50%, -50%);
-            text-align: center;
-            color: rgb(255, 255, 255);
-        }
-
-        #title-faded {
-            opacity: .8;
-        }
-
-        #header-menu {
-            font-size: 100%;
-            letter-spacing: 3px;
-            text-align: center;
-            margin-top: 25px;
-        }
-
-        .main-menu-image {
-            display: none;
-        }
-
-        .main-menu-image-2 {
-            margin-top: 4%;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: auto;
-            height: 77vh;
-            object-fit: cover;
-        }
-
-        /*  selected works styling for portrait tablets */
-
-        #selected-works {
-            padding-bottom: 0px;
-        }
-
-        .row {
-            display: block;
-            padding: 0
-        }
-
-        .column {
-            max-width: 95%;
-            margin: auto;
-        }
-
-        .column img {
-            margin-top: 40px;
-        }
-
-        /*  fine art styling for portrait tablets */
-
-        #fine-art-image-2 {
-            opacity: 0.2;
-            margin-top: 4%;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: auto;
-            height: 77vh;
-            object-fit: cover;
-        }
-
-        #fine-art-image-1 {
-            display: none;
-        }
-
-        #fine-art-blurb {
-            width: 70%;
-            top: 11%;
-            left: 15%;
-        }
-
-        #fine-art-extention {
-            display: none
-        }
-
-        #framed-image-responsive {
-            display: block;
-            padding-top: 5%;
-            padding-bottom: 3%;
-            margin-left: auto;
-            margin-right: auto;
-            height: auto;
-            width: 98%;
-        }
-
-        #gallery-pic {
-            display: none;
-        }
-
-        #gallery-pic-2 {
-            opacity: 0.2;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 2%;
-            width: auto;
-            height: 77vh;
-            object-fit: cover;
-            position: relative;
-        }
-
-        /* exhibition styling for portrait tablets */
-
-        #gallery-pic-2 {
-            margin-top: 4%;
-        }
-
-        #exhibitions div {
-            height: 18%;
-            width: 50%;
-        }
-
-        #leftside {
-            margin-top: -16%;
-            left: 24%;
-        }
-
-        #middle {
-            margin-top: 12%;
-            left: 24%;
-        }
-
-        #rightside {
-            margin-top: 40%;
-            left: 3%;
-        }
-
-        .height-wrapper {
-            margin-bottom: 4%;
-            height: 77vh;
-            position: relative;
-            margin-top: 0%;
-        }
-
-        /* contact styling for portrait tablets */
-
-        #contact {
-            width: 500px;
-            height: 500px;
-            margin-left: 18%;
-            margin-right: -18%;
-            margin-top: 20%;
-            display: block;
-        }
-
-        /* rds design styling for portrait tablets */
-
-        .rdsdesign {
-            margin-top: 20%;
-            width: 400px;
-        }
-
-        #submit-2 {
-            margin: 5% 40% 0 40%;
-        } 
-
-        /* footer styling for portrait tablets */
-
-        .leftside {
-            margin-left: 8%;
-        }
-
-        .middle {
-            width: 34%;
-        }
-
-        .rightside {
-            margin-right: 8%;
-        }
-
-        .middle li {
-            padding-bottom: 5px
-        }
-
-        .rightside li {
-            padding: 4px;
-        }
-
-        .leftside li {
-            padding: 4px;
-        }
+    #index-image {
+        display: none;
     }
 
-    /* mobile phone devices (450px and down) */
-    @media screen and (max-width: 450px) {
-
-        /* index styling for mobiles */
-
-        #index-image {
-            display: none;
-        }
-
-        #index-image-portrait {
-            display: none;
-        }
-
-        #index-image-phone {
-            display: block;
-            width: 100vw;
-            height: auto;
-            object-fit: cover;
-        }
-
-        #index-body {
-            background-color: #020202;
-        }
-
-        .index-text {
-            font-size: 90%;
-            margin-left: 3%;
-            margin-right: 4%;
-            margin-top: 100%;
-            color: rgb(214, 209, 209);
-        }
-
-        #enter-click {
-            padding: 10px 0 10px 0;
-        }
-
-        /* menu styling for mobiles */
-
-        title {
-            font-size: 80%;
-            margin-top: 30%;
-        }
-
-        .main-menu-image-2 {
-            width: 100vw;
-            height: auto;
-            opacity: .9;
-            margin-bottom: 2%;
-        }
-
-        .centered {
-            font-size: 110%;
-            top: 36%;
-            left: 49%;
-        }
-
-        /* selected works styling for mobiles */
-
-        #selected-works {
-            padding-bottom: 10px;
-        }
-
-        .column img {
-            margin-top: 20px;
-        }
-
-        /* fine art styling for mobiles */
-
-        #fine-art-image-2 {
-            width: 100vw;
-            height: 600px;
-            margin-bottom: 2%;
-        }
-
-        #fine-art-image-1 {
-            display: none;
-        }
-
-        #fine-art-blurb {
-            width: auto;
-            top: 3%;
-            left: 4%;
-            right: 4%;
-            font-size: 95%;
-        }
-
-        #fine-art-extention {
-            display: none
-        }
-
-        /* exhibitions styling for mobiles */
-
-        #gallery-pic-2 {
-            width: 100vw;
-            height: 520px;
-            margin-bottom: 2%;
-        }
-
-        #exhibitions {
-            position: relative;
-        }
-
-        #exhibitions div {
-            padding: 10px 10px 20px 10px;
-            height: 20%;
-            width: 70%;
-            font-size: 70%;
-        }
-
-        #leftside {
-            margin-top: -29%;
-            left: 12%;
-        }
-
-        #middle {
-            margin-top: 13%;
-            left: 12%;
-        }
-
-        #rightside {
-            margin-top: 55%;
-            left: 2%;
-        }
-
-        .height-wrapper {
-            width: 100vw;
-            height: 600px;
-            object-fit: cover;
-        }
-
-        /* contact styling for mobiles */
-
-        #contact {
-            width: 100vw;
-            height: 290px;
-            margin-left: 0%;
-            margin-right: -0%;
-            margin-top: 8%;
-            display: block;
-            border-top: 20px solid #1b1a17;
-            border-bottom: 20px solid #1b1a17;
-        }
-
-        #contact::before {
-            border-radius: 0%;
-        }
-
-        #contact-ceiling {
-            width: 100vw;
-            height: 355px;
-        }
-
-        #contact-info {
-            padding-top: 8%;
-            font-size: 70%;
-        }
-
-        /* rds design styling for mobiles */
-
-        #cell-break {
-            display: block;
-        }
-
-        .rdsdesign {
-            margin: 3%;
-            width: 100vw;
-        } 
-
-        #desegundo-design-contact {
-            margin-left: 1%;
-            margin-right: 2%;
-            width: 97vw;
-        }
-
-        #desegundo-design-blurb {
-            text-align: justify;
-            object-fit: cover;
-            margin: 5px 20px 30px 3px;
-        }
-
-        #submit-2 {
-            display: flex;
-            justify-content: center;
-        }
-
-        #back-to-platphotog {
-            display: flex;
-            justify-content: center;
-            margin-top: 30px;
-        }
-
-        /* header styling for mobiles */
-
-        /* header navigation bar was found and applied at https://codepen.io/ngochuynh/pen/yKrvVZ */
-
-        #header-menu {
-            display: none;
-        }
-
-        html {
-            -webkit-overflow-scrolling: touch;
-            height: 100%;
-        }
-
-        #nav-bar-menu {
-            display: block;
-            height: 100%;
-            width: auto;
-            font-size: 120%;
-            letter-spacing: 6px;
-            overflow: auto;
-        }
-
-        .hamburger {
-            height: 30px;
-            margin: 10px;
-            display: -ms-grid;
-            display: grid;
-            grid-template-rows: repeat(3, 1fr);
-            justify-items: center;
-            z-index: 250;
-        }
-
-        .hamburger span {
-            background-color: #1b1a17;
-            position: relative;
-            width: 40px;
-            height: 2px;
-            margin-top: 7px;
-            -webkit-transition: all 0.2s ease-in-out;
-            transition: all 0.2s ease-in-out;
-        }
-
-        #toggle {
-            display: none;
-        }
-
-        #toggle:checked+.hamburger .top {
-            -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg);
-            margin-top: 22.5px;
-        }
-
-        #toggle:checked+.hamburger .middle {
-            -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
-            margin-top: -2px;
-        }
-
-        #toggle:checked+.hamburger .bottom {
-            -webkit-transform: scale(0);
-            transform: scale(0);
-        }
-
-        #toggle:checked~#header-menu-2 {
-            height: 450px;
-        }
-
-        #header-menu-2 {
-            width: 100%;
-            background-color: rgb(236, 230, 230);
-            margin: 0;
-            display: -ms-grid;
-            display: grid;
-            grid-template-rows: 1fr repeat(4, 0.5fr);
-            grid-row-gap: 25px;
-            padding: 0;
-            list-style: none;
-            clear: both;
-            width: auto;
-            text-align: center;
-            height: 0px;
-            overflow: hidden;
-            transition: height .4s ease;
-            z-index: 250;
-            -webkit-transition: all 0.3s ease;
-            transition: all 0.3s ease;
-        }
-
-        #header-menu-2 a:first-child {
-            margin-top: 50px;
-        }
-
-        #header-menu-2 a:last-child {
-            margin-bottom: 50px;
-        }
-
-        .menu-options {
-            width: 100%;
-            margin: 0;
-            padding: 10px 0;
-            font: 700 20px 'Cormorant Garamond', serif, 'Times New Roman';
-        }
-
-        /* footer styling for mobiles */
-
-        #footer-1 {
-            display: none;
-        }
-
-        #footer-2 {
-            display: block;
-            height: auto;
-            clear: both;
-            width: 100%;
-            position: relative;
-            bottom: 0;
-            font-size: 80%;
-        }
-
-        .footer-2-leftside li {
-            padding: 2px;
-        }
-
-        .footer-2-rightside li {
-            padding: 2px;
-        }
-
-        #footer-2 ul {
-            text-decoration: none;
-            list-style-type: none;
-        }
-
-        .footer-2-leftside {
-            float: left;
-            text-align: left;
-            width: 30%;
-            margin-left: 3%;
-            margin-top: 0;
-        }
-
-        .footer-2-rightside {
-            float: right;
-            text-align: right;
-            width: 55%;
-            margin-right: 4%;
-        }
-
-        .footer-2-bottom {
-            display: inline-block;
-            margin: 10% 25% 1% 25%;
-        }
-
-        #submit-mob-footer-email {
-            background-color: rgb(236, 230, 230);
-            color: #1b1a17;
-            text-align: center;
-            border: none;
-            font-family: 'Cormorant Garamond', serif, 'Times New Roman';
-        }
-
-        #email-and-button {
-            border: .5px solid;
-            border-color: #1b1a17;
-            margin-top: 12%;
-            padding-right: 5px;
-        }
-
-        #submit-mob-footer {
-            background-color: rgb(236, 230, 230);
-            color: #1b1a17;
-            border: none;
-        }
-
-        #submit:hover {
-            color: #b8b2a9;
-        }
-
-        .copyright {
-            text-align: center;
-            font-size: 80%;
-            padding: 20px 0 20px 0;
-        }
+    #index-image-phone {
+        display: none;
     }
 
-        /* small mobile devices (350px and down) */
-    @media screen and (max-width: 350px) {
-
-        /* exhibitions styling for small mobiles */
-
-        #leftside {
-            margin-top: -32%;
-            
-        }
-
-        #middle {
-            margin-top: 15%;
-            
-        }
-
-        #rightside {
-            margin-top: 62%;
-            left: 3.5%;
-        }
-
-        /* contact styling for small mobiles */
-
-        #contact-info {
-            padding-top: 10%;
-        }
+    #index-image-portrait {
+        display: block;
+        margin: auto;
+        width: 100vw;
+        height: auto;
+        object-fit: cover;
     }
+
+    .index-text {
+        margin-left: 50%;
+        margin-right: 8%;
+        margin-top: 80%;
+        font-size: 105%;
+    }
+
+    /* menu styling for portrait tablets */
+
+    .centered {
+        top: 38%;
+        left: 49.5%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+
+    #title-faded {
+        opacity: .8;
+    }
+
+    #header-menu {
+        font-size: 100%;
+        letter-spacing: 3px;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .main-menu-image {
+        display: none;
+    }
+
+    .main-menu-image-2 {
+        margin-top: 4%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        height: 77vh;
+        object-fit: cover;
+    }
+
+    /*  selected works styling for portrait tablets */
+
+    #selected-works {
+        padding-bottom: 0px;
+    }
+
+    .row {
+        display: block;
+        padding: 0
+    }
+
+    .column {
+        max-width: 95%;
+        margin: auto;
+    }
+
+    .column img {
+        margin-top: 40px;
+    }
+
+    /*  fine art styling for portrait tablets */
+
+    #fine-art-image-2 {
+        opacity: 0.2;
+        margin-top: 4%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        height: 77vh;
+        object-fit: cover;
+    }
+
+    #fine-art-image-1 {
+        display: none;
+    }
+
+    #fine-art-blurb {
+        width: 70%;
+        top: 11%;
+        left: 15%;
+    }
+
+    #fine-art-extention {
+        display: none
+    }
+
+    #framed-image-responsive {
+        display: block;
+        padding-top: 5%;
+        padding-bottom: 3%;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        width: 98%;
+    }
+
+    #gallery-pic {
+        display: none;
+    }
+
+    #gallery-pic-2 {
+        opacity: 0.2;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+        width: auto;
+        height: 77vh;
+        object-fit: cover;
+        position: relative;
+    }
+
+    /* exhibition styling for portrait tablets */
+
+    #gallery-pic-2 {
+        margin-top: 4%;
+    }
+
+    #exhibitions div {
+        height: 18%;
+        width: 50%;
+    }
+
+    #leftside {
+        margin-top: -16%;
+        left: 24%;
+    }
+
+    #middle {
+        margin-top: 12%;
+        left: 24%;
+    }
+
+    #rightside {
+        margin-top: 40%;
+        left: 3%;
+    }
+
+    .height-wrapper {
+        margin-bottom: 4%;
+        height: 77vh;
+        position: relative;
+        margin-top: 0%;
+    }
+
+    /* contact styling for portrait tablets */
+
+    #contact {
+        width: 500px;
+        height: 500px;
+        margin-left: 18%;
+        margin-right: -18%;
+        margin-top: 20%;
+        display: block;
+    }
+
+    /* rds design styling for portrait tablets */
+
+    .rdsdesign {
+        margin-top: 20%;
+        width: 400px;
+    }
+
+    #submit-2 {
+        margin: 5% 40% 0 40%;
+    }
+
+    /* footer styling for portrait tablets */
+
+    .leftside {
+        margin-left: 8%;
+    }
+
+    .middle {
+        width: 34%;
+    }
+
+    .rightside {
+        margin-right: 8%;
+    }
+
+    .middle li {
+        padding-bottom: 5px
+    }
+
+    .rightside li {
+        padding: 4px;
+    }
+
+    .leftside li {
+        padding: 4px;
+    }
+}
+
+/* mobile phone devices (450px and down) */
+@media screen and (max-width: 450px) {
+
+    /* index styling for mobiles */
+
+    #index-image {
+        display: none;
+    }
+
+    #index-image-portrait {
+        display: none;
+    }
+
+    #index-image-phone {
+        display: block;
+        width: 100vw;
+        height: auto;
+        object-fit: cover;
+    }
+
+    #index-body {
+        background-color: #020202;
+    }
+
+    .index-text {
+        font-size: 90%;
+        margin-left: 3%;
+        margin-right: 4%;
+        margin-top: 100%;
+        color: rgb(214, 209, 209);
+    }
+
+    #enter-click {
+        padding: 10px 0 10px 0;
+    }
+
+    /* menu styling for mobiles */
+
+    title {
+        font-size: 80%;
+        margin-top: 30%;
+    }
+
+    .main-menu-image-2 {
+        width: 100vw;
+        height: auto;
+        opacity: .9;
+        margin-bottom: 2%;
+    }
+
+    .centered {
+        font-size: 110%;
+        top: 36%;
+        left: 49%;
+    }
+
+    /* selected works styling for mobiles */
+
+    #selected-works {
+        padding-bottom: 10px;
+    }
+
+    .column img {
+        margin-top: 20px;
+    }
+
+    /* fine art styling for mobiles */
+
+    #fine-art-image-2 {
+        width: 100vw;
+        height: 600px;
+        margin-bottom: 2%;
+    }
+
+    #fine-art-image-1 {
+        display: none;
+    }
+
+    #fine-art-blurb {
+        width: auto;
+        top: 3%;
+        left: 4%;
+        right: 4%;
+        font-size: 95%;
+    }
+
+    #fine-art-extention {
+        display: none
+    }
+
+    /* exhibitions styling for mobiles */
+
+    #gallery-pic-2 {
+        width: 100vw;
+        height: 520px;
+        margin-bottom: 2%;
+    }
+
+    #exhibitions {
+        position: relative;
+    }
+
+    #exhibitions div {
+        padding: 10px 10px 20px 10px;
+        height: 20%;
+        width: 70%;
+        font-size: 70%;
+    }
+
+    #leftside {
+        margin-top: -29%;
+        left: 12%;
+    }
+
+    #middle {
+        margin-top: 13%;
+        left: 12%;
+    }
+
+    #rightside {
+        margin-top: 55%;
+        left: 2%;
+    }
+
+    .height-wrapper {
+        width: 100vw;
+        height: 600px;
+        object-fit: cover;
+    }
+
+    /* contact styling for mobiles */
+
+    #contact {
+        width: 100vw;
+        height: 290px;
+        margin-left: 0%;
+        margin-right: -0%;
+        margin-top: 4%;
+        display: block;
+        border-top: 20px solid #1b1a17;
+        border-bottom: 20px solid #1b1a17;
+    }
+
+    #contact::before {
+        border-radius: 0%;
+    }
+
+    #contact-ceiling {
+        width: 100vw;
+        height: 355px;
+    }
+
+    #contact-info {
+        padding-top: 8%;
+        font-size: 70%;
+    }
+
+    /* rds design styling for mobiles */
+
+    #cell-break {
+        display: block;
+    }
+
+    .rdsdesign {
+        margin: 3%;
+        width: 100vw;
+    }
+
+    #desegundo-design-contact {
+        margin-left: 1%;
+        margin-right: 2%;
+        width: 97vw;
+    }
+
+    #desegundo-design-blurb {
+        text-align: justify;
+        object-fit: cover;
+        margin: 5px 20px 30px 3px;
+    }
+
+    #submit-2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    #back-to-platphotog {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    /* header styling for mobiles */
+
+    /* header navigation bar was found and applied at https://codepen.io/ngochuynh/pen/yKrvVZ */
+
+    #header-menu {
+        display: none;
+    }
+
+    html {
+        -webkit-overflow-scrolling: touch;
+        height: 100%;
+    }
+
+    #nav-bar-menu {
+        display: block;
+        height: 100%;
+        width: auto;
+        font-size: 120%;
+        letter-spacing: 6px;
+        overflow: auto;
+    }
+
+    .hamburger {
+        height: 30px;
+        margin: 10px;
+        display: -ms-grid;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        justify-items: center;
+        z-index: 250;
+    }
+
+    .hamburger span {
+        background-color: #1b1a17;
+        position: relative;
+        width: 40px;
+        height: 2px;
+        margin-top: 7px;
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+    }
+
+    #toggle {
+        display: none;
+    }
+
+    #toggle:checked+.hamburger .top {
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        margin-top: 22.5px;
+    }
+
+    #toggle:checked+.hamburger .middle {
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        margin-top: -2px;
+    }
+
+    #toggle:checked+.hamburger .bottom {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+
+    #toggle:checked~#header-menu-2 {
+        height: 450px;
+    }
+
+    #header-menu-2 {
+        width: 100%;
+        background-color: rgb(236, 230, 230);
+        margin: 0;
+        display: -ms-grid;
+        display: grid;
+        grid-template-rows: 1fr repeat(4, 0.5fr);
+        grid-row-gap: 25px;
+        padding: 0;
+        list-style: none;
+        clear: both;
+        width: auto;
+        text-align: center;
+        height: 0px;
+        overflow: hidden;
+        transition: height .4s ease;
+        z-index: 250;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+
+    #header-menu-2 a:first-child {
+        margin-top: 50px;
+    }
+
+    #header-menu-2 a:last-child {
+        margin-bottom: 50px;
+    }
+
+    .menu-options {
+        width: 100%;
+        margin: 0;
+        padding: 10px 0;
+        font: 700 20px 'Cormorant Garamond', serif, 'Times New Roman';
+    }
+
+    /* footer styling for mobiles */
+
+    #footer-1 {
+        display: none;
+    }
+
+    #footer-2 {
+        display: block;
+        height: auto;
+        clear: both;
+        width: 100%;
+        position: relative;
+        bottom: 0;
+        font-size: 80%;
+    }
+
+    .footer-2-leftside li {
+        padding: 2px;
+    }
+
+    .footer-2-rightside li {
+        padding: 2px;
+    }
+
+    #footer-2 ul {
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    .footer-2-leftside {
+        float: left;
+        text-align: left;
+        width: 30%;
+        margin-left: 3%;
+        margin-top: 0;
+    }
+
+    .footer-2-rightside {
+        float: right;
+        text-align: right;
+        width: 55%;
+        margin-right: 4%;
+    }
+
+    .footer-2-bottom {
+        display: inline-block;
+        margin: 10% 25% 1% 25%;
+    }
+
+    #submit-mob-footer-email {
+        background-color: rgb(236, 230, 230);
+        color: #1b1a17;
+        text-align: center;
+        border: none;
+        font-family: 'Cormorant Garamond', serif, 'Times New Roman';
+    }
+
+    #email-and-button {
+        border: .5px solid;
+        border-color: #1b1a17;
+        margin-top: 12%;
+        padding-right: 5px;
+    }
+
+    #submit-mob-footer {
+        background-color: rgb(236, 230, 230);
+        color: #1b1a17;
+        border: none;
+    }
+
+    #submit:hover {
+        color: #b8b2a9;
+    }
+
+    .copyright {
+        text-align: center;
+        font-size: 80%;
+        padding: 20px 0 20px 0;
+    }
+}
+
+/* small mobile devices (350px and down) */
+@media screen and (max-width: 350px) {
+
+    /* exhibitions styling for small mobiles */
+
+    #leftside {
+        margin-top: -32%;
+
+    }
+
+    #middle {
+        margin-top: 15%;
+
+    }
+
+    #rightside {
+        margin-top: 62%;
+        left: 3.5%;
+    }
+
+    /* contact styling for small mobiles */
+
+    #contact-info {
+        padding-top: 10%;
+    }
+}

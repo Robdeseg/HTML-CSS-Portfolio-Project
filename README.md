@@ -24,7 +24,7 @@ Willem Platerink is an internationally acclaimed photographer who specialises in
 * [**Testing**](<#testing>)
     * [Browsers](<#browsers>)
     * [Responsivity](<#responsivity>)
-    * [Interface & Functionality](<#interface-and-functionality>)
+    * [Functionality](<#functionality>)
     * [Bugs](<#bugs>)
     * [Validator Testing](<#validator-testing>)
         * [HTML](<#html)
@@ -97,24 +97,42 @@ Willem Platerink is an internationally acclaimed photographer who specialises in
 
  * ### Browsers
 
+    The site has been fully tested across Chrome, Safari and Firefox and works well on each with no obvious issues.
+
  * ### Responsivity
 
- * ### Interface & Functionality
+    The site has been tested on standard sized screens across all platforms including mobile phone, tablet, laptop and two different sized desktop screens. Each page of the site proves fully responsive.
+
+ * ### Functionality
+
+    The site has been fully tested on several different subjects who found the navigation through the site to be straightforward and intuitive. Three repeating notes were to make the clickable links to return from RDS Design page to the website and to move from the Fine Art page to the Fine Art Example page more obvious. It was also suggested that the RDS Design tab in the footer be more obviously clickable. All three suggestions were addressed.
 
  * ### Bugs
 
- I struggled to understand the reason for my title font comiung up in purple. Realised I needed to amend the visited pseudo class.
+    Bugs were generally small and resolved as part of the development process. 
+    
+    The validator testing threw up an issue with having a div as a child of a label element in the dropdown menu for mobile phones. This was resolved by using spans instead, achieving the same end result.
 
-Footer bleeding off right of page - taking time to fix.
+    Conversely, in the Contact section, h3 elements are not allowed as child elements of a span. I changed the spans to div and again achieved the same result.
 
-I would have like to have put a globe behind the contact info box, but ran out of time investigating how to superimpose the globe and no background into css. 
+    There was also an eroneous closing tab for an input field which was uncecessary and removed, as well as a stray end tag for a div in the fine art section which was also removed.
 
-The T's & C's, Privacy Policy and Pertnership links are working, but I have not yet created landing pages for them as the photographer is getting the legal documentation in order before committing to the site.
+    * ### Unresolved Bugs
+
+    The validator testing stated that the value of the attribute of one of the label elements in the Contact Form page needed to match the ID of a non-hidden form control. In this instance, I checked the label for="services-required" and the corresponding textarea id="services-required". They matched, but the error message pertained. It did not, however, impde functionality.
 
  * ### Validator Testing
 
     * #### HTML
+
+        Save the one issue mentioned above, all pages returned the below report.
+
+    ![HTML Validator test result](assets/images/html-validator-result.png)
+
     * #### CSS
+
+    ![CSS Validator test result](assets/images/css-validator-result.png)
+
     * #### Accessibility
 
 [Back to top](<#contents>)

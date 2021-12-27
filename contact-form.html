@@ -14,45 +14,44 @@
     <title>RDS Design Studio</title>
 </head>
 
-<body >
+<body>
     <div class="rdsdesign">
-    <div id="desegundo-design-blurb">
-        <h1>RDS DESIGN</h1>
-        <br>
-        <p style="text-align: justify;">At RDS Design we are committed to creating a clean and elegant aesthetic
-            without compromising UX. If you are interested in any of our services, please fill out the form below and we
-            will be in touch shortly.</p>
+        <div id="desegundo-design-blurb">
+            <h2>RDS DESIGN</h2>
+            <br>
+            <p style="text-align: justify;">At RDS Design we are committed to creating a clean and elegant aesthetic
+                without compromising UX. If you are interested in any of our services, please fill out the form below
+                and we
+                will be in touch shortly.</p>
+        </div>
+        <form action="https://www.sendmydatahere.com" method="post">
+            <fieldset id="desegundo-design-contact">
+                <label style="font-size:125%" for="serivces-required">Services Required</label>
+                <br>
+                <textarea name="services-required" id="serivces-required" placeholder="Please briefly describe the nature of your enquiry." rows="8" cols="38" style="border: 1px solid #1b1a17;"></textarea>
+                <br>
+                <input id="web-design" type="radio" name="service-required" value="web-design">
+                <label for="web-design">Web Design</label>
+                <br>
+                <input id="web-development" type="radio" name="service-required" value="web-development">
+                <label for="web-development">Web Development</label>
+                <br>
+                <input id="both" type="radio" name="service-required" value="both" checked>
+                <label for="both">Both</label>
+                <br>
+                <input type="text" id="fname" class="name-and-email" placeholder="First Name">
+                <input type="text" id="lname" class="name-and-email" placeholder="Last Name">
+                <br id="cell-break">
+                <input type="email" id="email-2" class="name-and-email" placeholder="Email Address">
+                <br>
+                <br>
+                <input type="submit" id="submit-2">
+            </fieldset>
+        </form>
+        <nav id="back-to-platphotog">
+            <a href="menu.html" id="return-to-home"><i>← Return to Willem Platerink Photography</i></a>
+        </nav>
     </div>
-    <form action="https://www.sendmydatahere.com" method="post">
-        <fieldset id="desegundo-design-contact">
-            <label style="font-size:125%" for="serivces-required">Services Required</label>
-            <br>
-            <textarea name="services-required" id="services-required"
-                placeholder="Please briefly describe the nature of your enquiry." rows="8" cols="38"
-                style="border: 1px solid #1b1a17;"></textarea>
-            <br>
-            <input id="web-design" type="radio" name="service-required" value="web-design">
-            <label for="web-design">Web Design</label>
-            <br>
-            <input id="web-development" type="radio" name="service-required" value="web-development">
-            <label for="web-development">Web Development</label>
-            <br>
-            <input id="both" type="radio" name="service-required" value="both" checked>
-            <label for="both">Both</label>
-            <br>
-            <input type="text" id="fname" class="name-and-email" placeholder="First Name">
-            <input type="text" id="lname" class="name-and-email" placeholder="Last Name">
-            <br id="cell-break">
-            <input type="email" id="email-2" class="name-and-email" placeholder="Email Address">
-            <br>
-            <br>
-            <input type="submit" id="submit-2">
-        </fieldset>
-    </form>
-    <nav id="back-to-platphotog">
-        <a href="menu.html" id="return-to-home"><i>← Return to Willem Platerink Photography</i></a>
-    </nav>
-</div>
 </body>
 
 </html>
