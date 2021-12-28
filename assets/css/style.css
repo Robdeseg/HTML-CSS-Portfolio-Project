@@ -214,7 +214,7 @@ a:hover {
 }
 
 #gallery-pic {
-    opacity: 0.2;
+    opacity: 0.1;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -710,7 +710,7 @@ a:hover {
     }
 
     #gallery-pic-2 {
-        opacity: 0.2;
+        opacity: 0.1;
         display: block;
         margin-left: auto;
         margin-right: auto;
