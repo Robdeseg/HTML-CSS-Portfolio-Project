@@ -1143,7 +1143,9 @@ a:hover {
 
     .footer-2-bottom {
         display: inline-block;
-        margin: 10% 25% 1% 25%;
+        margin: 10% 23.5% 1% 23.5%;
+        vertical-align: middle;
+        font-size: 110%;
     }
 
     #submit-mob-footer-email {
