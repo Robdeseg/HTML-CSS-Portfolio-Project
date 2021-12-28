@@ -4,7 +4,7 @@ Willem Platerink is an internationally acclaimed photographer who specialises in
 
 <a href="https://robdeseg.github.io/HTML-CSS-Portfolio-Project/" target="_blank" rel="noopener">Willem Platerink Photography</a>
 
-![A picture showing Willem Platerink Responsivity across four screen sizes.](assets/images/responsive-screens.png)
+![A picture showing Willem Platerink Responsivity across four screen sizes.](assets/images/responsive-screens.webp)
 
 # Contents
 
@@ -130,11 +130,11 @@ Willem Platerink is an internationally acclaimed photographer who specialises in
 
         Save the one issue mentioned above, all pages returned the below report.
 
-    ![HTML validator test result](assets/images/html-validator-result.png)
+    ![HTML validator test result](assets/images/html-validator-result.webp)
 
     * #### CSS
 
-    ![CSS validator test result](assets/images/css-validator-result.png)
+    ![CSS validator test result](assets/images/css-validator-result.webp)
 
     * #### Accessibility
 
@@ -146,11 +146,11 @@ Willem Platerink is an internationally acclaimed photographer who specialises in
 
     1. First go to the project repository page [here.](https://github.com/Robdeseg/HTML-CSS-Portfolio-Project)
     2. From there, click on the Settings tab on the righthand side of the menu section across the top:
-    ![Settings Tab](assets/images/settings-tab.png)
+    ![Settings Tab](assets/images/settings-tab.webp)
     3. Once you are in Settings, click on the Pages tab on the left, second from the bottom.
-    ![Pages Tab](assets/images/pages-tab.png)
+    ![Pages Tab](assets/images/pages-tab.webp)
     4. You will then be in [Github Pages](https://github.com/Robdeseg/HTML-CSS-Portfolio-Project/settings/pages) where you will need to select the *Source*. From the *Branch* dropdown menu under the *Source* heading, choose *Main*.
-    ![Selecting Source](assets/images/source-main.png)
+    ![Selecting Source](assets/images/source-main.webps)
     5. Once you click *Save* the site is deployed and ready to share.
 
 [Back to top](<#contents>)
