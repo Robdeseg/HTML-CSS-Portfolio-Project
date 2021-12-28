@@ -31,7 +31,7 @@ Willem Platerink is an internationally acclaimed photographer who specialises in
         * [CSS](<#css>)
         * [Accessibility](<#accessibility>)
 * [**Deployment**](<#deployment>)
-* [**Credits**](<#credits>)
+* [**Credits & Acknowledgements**](<#credits-&-acknowledgements>)
 
 ## Tone and Inspiration
 
@@ -140,6 +140,14 @@ Willem Platerink is an internationally acclaimed photographer who specialises in
 
 [Back to top](<#contents>)
 
+![Lighthouse Accessibility test result](assets/images/lighthouse-accessibility-score.webp)
+
+The pages of the site achived 100% across the board for Accessibility, Best Practices and SEO on desktop platforms. Performance ranged between 98-100% on all pages except the Selected Works page which is very image heavy. While the images have been compressed, it did pull the Performance down to 67%.
+
+For mobile platforms, the SEO fell to 96% with the suggestion that the tap targets in the footer section are not appropriately sized. Having tested this on several subjects, I received no feedback that there were any issues when selecting those targets and therefore do not see this as a concern. Performace returned a figure of 65% on the Selected Works section for the same reason as stated above, while all other pages corresponded to the results on the desktop platform.
+
+THe Accessibility score remained at 100% throughout on both platforms.
+
 ## Deployment
     
  * #### This site was deployed to Github Pages using the following steps:
@@ -155,7 +163,7 @@ Willem Platerink is an internationally acclaimed photographer who specialises in
 
 [Back to top](<#contents>)
 
-## Credits
+## Credits & Acknowledgements
 
 W3Schools helped with the arrangement of the photos into two columns in the selected works section using flexbox.
 
@@ -166,6 +174,10 @@ https://coder-coder.com/background-image-opacity
 The navigation dropdown bar for mobile phone sized screns was taken from the following site, though amendments were made (mentioned above) to make it pass validation checks.
 
 https://codepen.io/ngochuynh/pen/yKrvVZ
+
+I used pexels.com for an image of a photo gallery for the background of the Exhibition page.
+
+I would also like to thank the tutors, mentors and allumni at Code Institute for their advice and support throughout the development of this website. It has been invaluable.
 
 [Back to top](<#contents>)
 
