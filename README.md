@@ -1,6 +1,6 @@
 # Willem Platerink Photography
 
- Willem Platerink is an internationally acclaimed photographer who specialises in African wildlife and culture. With over 20 years’ experience, he has, over that time, built a global following who are drawn to his unique style when it comes to capturing the beating heart of Africa and its people. His work has featured in print media in over 100 countries as well as exhibiting in some of the most renowned galleries around the world. 
+ Willem Platerink is an internationally acclaimed photographer who specialises in African wildlife and culture. With over 20 years’ experience, he has, during that time, built a global following who are drawn to his unique style when it comes to capturing the beating heart of Africa and its people. His work has featured in print media in over 100 countries as well as exhibiting in some of the most renowned galleries around the world. 
 
 <a href="https://robdeseg.github.io/HTML-CSS-Portfolio-Project/" target="_blank" rel="noopener">Willem Platerink Photography</a>
 
@@ -143,8 +143,6 @@
 
     * #### Accessibility
 
-[Back to top](<#contents>)
-
 ![Lighthouse Accessibility test result](assets/images/lighthouse-accessibility-score.webp)
 
  The pages of the site achived 100% across the board for Accessibility, Best Practices and SEO on desktop platforms. Performance ranged between 98-100% on all pages except the Selected Works page which is very image heavy. While the images have been compressed, it did pull the Performance down to 67%.
@@ -152,6 +150,8 @@
  For mobile platforms, the SEO fell to 96% with the suggestion that the "tap targets" in the footer section are not appropriately sized. Having tested this on several subjects, I received no feedback that there were any issues when selecting those targets and therefore do not see this as a concern. Performace returned a figure of 65% on the Selected Works section for the same reason stated above, while all other pages corresponded to the results on the desktop platform.
 
 THe Accessibility score remained at 100% throughout on both platforms.
+
+[Back to top](<#contents>)
 
 ## Deployment
     
@@ -165,7 +165,6 @@ THe Accessibility score remained at 100% throughout on both platforms.
     4. You will then be in [Github Pages](https://github.com/Robdeseg/HTML-CSS-Portfolio-Project/settings/pages) where you will need to select the *Source*. From the *Branch* dropdown menu under the *Source* heading, choose *Main*.
     ![Selecting Source](assets/images/source-main.webp)
     5. Once you click *Save* the site is deployed and ready to share.
-
 
 * #### To create a clone of the project, use the following steps:
 
@@ -207,6 +206,8 @@ THe Accessibility score remained at 100% throughout on both platforms.
  https://www.pexels.com/photo/wooden-bench-2261165/
 
  And finally, I would also like to thank the tutors, mentors and allumni at Code Institute for their advice and support throughout the development of this website. It has been invaluable.
+
+ © Robert de Segundo 2021
 
 [Back to top](<#contents>)
 
