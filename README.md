@@ -1,6 +1,6 @@
 # Willem Platerink Photography
 
-Willem Platerink is an internationally acclaimed photographer who specialises in African wildlife and culture. With over 20 years’ experience, he has, over that time, built a global following who are drawn to his unique style when it comes to capturing the beating heart of Africa and its people. His work has featured in print media in over 100 countries as well as exhibiting in some of the most renowned galleries in the world. This website has been designed as an extension of the photographer himself. It is an expression of the artist’s style designed to bleed seamlessly through his work and back again. It is a place where collectors, exhibitors and dealers come together to look at work that has sold for several thousand dollars apiece. This is not designed to lasso an impulse purchase, rather it is built to emulate the experience of seeing Mr. Platerink's work in person.
+Willem Platerink is an internationally acclaimed photographer who specialises in African wildlife and culture. With over 20 years’ experience, he has, over that time, built a global following who are drawn to his unique style when it comes to capturing the beating heart of Africa and its people. His work has featured in print media in over 100 countries as well as exhibiting in some of the most renowned galleries around the world. 
 
 <a href="https://robdeseg.github.io/HTML-CSS-Portfolio-Project/" target="_blank" rel="noopener">Willem Platerink Photography</a>
 
@@ -8,7 +8,7 @@ Willem Platerink is an internationally acclaimed photographer who specialises in
 
 # Contents
 
-* [**Tone and Inspiration**](<#tone-and-inspiration>)
+* [**User Experience**](<#user-experience>)
 * [**Features**](<#features>)
     * [**Landing Page**](<#landing-page>)
     * [**Header**](<#header>)
@@ -33,9 +33,13 @@ Willem Platerink is an internationally acclaimed photographer who specialises in
 * [**Deployment**](<#deployment>)
 * [**Credits & Acknowledgements**](<#credits-&-acknowledgements>)
 
-## Tone and Inspiration
+## User Experience
 
-    The tone and inspiration for the style and feel of the website came from two sources. The first being the photographer himself. I was lucky to be able to interview him at length and discuss both his work and his philosophies on life. These became important considerations when designing the essence of the website and how it felt. The second, of course, are the photographs themselves, and these drove the overall aesthetic. It was important that his work sat within the pages of a site that looked seamless alongside them.
+   This website has been designed as an extension of the photographer himself. It is an expression of the artist’s style intended to bleed seamlessly through his work and back again. It is a place where collectors, exhibitors and dealers come to look at work that has sold for several thousands of dollars apiece. TThe site has not been created to lasso an impulse purchase, rather it is built to emulate the experience of seeing Mr. Platerink's work in person.
+
+    The tone and inspiration for this website came from two sources. The first being the photographer himself. I was lucky to be able to interview him at length and discuss both his work and his philosophies on life. These became important considerations when designing the essence of the website and how it felt. Specifically, the ethos of letting his subjects do the talking was a concept applied heavily to the site design. It is very much intended that his photographs take centre stage and the site and its functionality sit neatly behind them.
+    
+    The second, of course, are the photographs themselves, and these drove the overall aesthetic in terms of colour choices and font, as well as the main design infastructure. Simplicity is key, underpinned by intuative functionality. It was important that his work sat within the pages of a site that looked seamless alongside them.
 
 [Back to top](<#contents>)
 
