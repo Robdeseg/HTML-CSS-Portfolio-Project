@@ -144,7 +144,7 @@ Willem Platerink is an internationally acclaimed photographer who specialises in
 
 The pages of the site achived 100% across the board for Accessibility, Best Practices and SEO on desktop platforms. Performance ranged between 98-100% on all pages except the Selected Works page which is very image heavy. While the images have been compressed, it did pull the Performance down to 67%.
 
-For mobile platforms, the SEO fell to 96% with the suggestion that the tap targets in the footer section are not appropriately sized. Having tested this on several subjects, I received no feedback that there were any issues when selecting those targets and therefore do not see this as a concern. Performace returned a figure of 65% on the Selected Works section for the same reason as stated above, while all other pages corresponded to the results on the desktop platform.
+For mobile platforms, the SEO fell to 96% with the suggestion that the "tap targets" in the footer section are not appropriately sized. Having tested this on several subjects, I received no feedback that there were any issues when selecting those targets and therefore do not see this as a concern. Performace returned a figure of 65% on the Selected Works section for the same reason stated above, while all other pages corresponded to the results on the desktop platform.
 
 THe Accessibility score remained at 100% throughout on both platforms.
 
