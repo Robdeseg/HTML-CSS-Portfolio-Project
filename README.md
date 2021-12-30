@@ -173,7 +173,7 @@ THe Accessibility score remained at 100% throughout on both platforms.
    2. From there, click on the green *Code* button, and then, *Open with GitHub Desktop*.
    ![Open with Github Desktop](assets/images/git-clone-1.png)
    3. Click *Choose* and then, on your browser of choice, navigate to a local path where you would like to clone the repository. 
-   4. Checking that the correct URL has successfully registered in the URL window, finally, select *Clone*.
+   4. Checking that the correct URL has successfully registered in the URL window, finally select *Clone*.
 
 [Back to top](<#contents>)
 
@@ -202,7 +202,7 @@ THe Accessibility score remained at 100% throughout on both platforms.
 
  https://codepen.io/ngochuynh/pen/yKrvVZ
 
- I used Robin Schreiner's workat pexels.com for an image of a photo gallery for the background of the Exhibition page.
+ I used Robin Schreiner's work at pexels.com for an image of a photo gallery for the background of the Exhibition page.
 
  https://www.pexels.com/photo/wooden-bench-2261165/
 
