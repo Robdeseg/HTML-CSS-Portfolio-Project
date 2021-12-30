@@ -14,11 +14,6 @@ body {
     color: #1b1a17;
 }
 
-#page-container {
-    position: relative;
-    min-height: 100vh;
-}
-
 a {
     text-decoration: none;
     color: #1b1a17;
@@ -821,6 +816,7 @@ a:hover {
         width: 100vw;
         height: auto;
         object-fit: cover;
+        margin-top: 0;
     }
 
     #index-body {
