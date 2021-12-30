@@ -36,9 +36,9 @@
 
 ## User Experience
 
-   This website has been designed as an extension of the photographer himself. It is an expression of the artist’s style intended to bleed seamlessly through his work and back again. It is a place where collectors, exhibitors and dealers come to look at work that has sold for several thousands of dollars apiece. TThe site has not been created to lasso an impulse purchase, rather it is built to emulate the experience of seeing Mr. Platerink's work in person.
+   This website has been designed as an extension of the photographer himself. It is an expression of the artist’s style intended to bleed seamlessly through his work and back again. It is a place where collectors, exhibitors and dealers come to look at work that has sold for several thousands of dollars apiece. The site has not been created to lasso an impulse purchase, rather it is built to emulate the experience of seeing Mr. Platerink's work in person.
     
-   The tone and inspiration for this website came from two sources. The first being the photographer himself. I was lucky to be able to interview him at length and discuss both his work and his philosophies on life. These became important considerations when designing the essence of the website and how it felt. Specifically, the ethos of letting his subjects do the talking was a concept applied heavily to the site design. It is very much intended that his photographs take centre stage and the site and its functionality sit neatly behind them. 
+   The tone and inspiration for this website came from two sources. The first being the photographer himself. I was lucky enough to be able to interview him at length and discuss both his work and his philosophies on life. These became important considerations when designing the essence of the website and how it felt. Specifically, the ethos of letting his subjects do the talking was a concept applied heavily to the site design. It is very much intended that his photographs take centre stage and the site and its functionality sit neatly behind them. 
 
    The second, of course, are the photographs themselves, and these drove the overall aesthetic in terms of colour choices and font, as well as the main design infastructure. Simplicity is key, underpinned by intuative functionality. It was important that his work sat within the pages of a site that looked seamless alongside them.
 
@@ -50,22 +50,22 @@
 
  * ### Landing Page
 
-    The landing page is there to create the first and lasting impression of the kind of man Willem Platerink is and, by extension, the sort of work that he creates. There is an Entry button that takes you straight through to the Home Page, but equally, visitors to the site will not be rushing towards an impulse purchase. They are here to indulge in an artist and his work and the quote on the landing page is there to set the tone.
+    The landing page is there to create the first and lasting impression of the kind of man Willem Platerink is and, by extension, the sort of work that he creates. There is an *Enter* button that takes you straight through to the Home Page, but equally, visitors to the site will not be rushing towards buying something. They are here to indulge in an artist and his work and the quote on the landing page is there to set the tone.
 
  * ### Header
 
-    The header is clear, clean, and simple. Each heading explains precisely what it is, while the header itself lends a spatial awareness to where you are within the site. It operates as the compass to help steer you both forwards and backwards through each page of the site. 
+    The header is clear, clean, and simple. Each heading within it explains precisely what it is, while the header itself lends a spatial awareness to where you are within the site. It operates as the compass to help steer you both forwards and backwards through each page of the site. 
 
     For the mobile phone screen size, it was decided that a dropdown menu would work better than simply shrinking the header menu further. This maintains ease of access to each page even on a small screen.
 
 
  * ### Home
 
-    The home page is the product and the brand wrapped into one and it is imperative to set the tone and style for the whole website from the moment the user sets foot on this page. It also establishes the framework of header and footer found on each page that follows throughout, guiding the user towards their own intuition.
+    The home page is the product and the brand wrapped into one and it is imperative to set the tone and style for the whole website from the moment the user sets foot on this page. It also establishes the framework of header and footer found on each page that continues throughout, guiding the user to follow their own intuition.
 
  * ### Selected Works
 
-    Selected works are a carefully curated selection of the artist's work. On the bigger screens they are displayed in two rows, while on the smaller one just one so that the user can sensibly appreciate the detail of each image on the tablet and mobile sized screens as well.
+    Selected Works are a carefully curated selection of the artist's work. On the bigger screens they are displayed in two rows, while on the smaller one, just one, so that the user can sensibly appreciate the detail of each image on the tablet and mobile sized screens as well.
 
  * ### Fine Art
 
@@ -77,7 +77,7 @@
 
  * ### Exhibitions
 
-    This section has been designed to be easily changed every month to incorporate new and forthcoming exhibitions as and when they arise. 
+    This section has been designed to be easily updated every month to incorporate new and forthcoming exhibitions as and when they arise. 
 
  * ### Contact
 
@@ -85,7 +85,7 @@
 
  * ### Footer
 
-    Much like the header, the footer aims for uniformity. There is a very simply form for those interested in joining the mailing list that requires only an email. The rest of the items all have their purpose without overfilling or cluttering the bottom of the site. 
+    Much like the header, the footer aims for uniformity. There is a very simple form to fill for those interested in joining the mailing list that requires only an email. The rest of the items all have their purpose without overfilling or cluttering the bottom of the site, nor distracting from the content above it. 
 
  * ### RDS Design
 
@@ -133,23 +133,25 @@
 
     * #### HTML
 
-        Once the above issues were resolved, all pages returned the below report.
+        Once the above issues were resolved, no errors returned when passing through the official [W3C Validator](https://validator.w3.org/).
 
     ![HTML validator test result](assets/images/html-validator-result.webp)
 
     * #### CSS
 
+         Once the above issues were resolved, no errors returned when passing through the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/).
+
     ![CSS validator test result](assets/images/css-validator-result.webp)
 
     * #### Accessibility
 
-![Lighthouse Accessibility test result](assets/images/lighthouse-accessibility-score.webp)
+         The pages of the site achived 100% across the board for Accessibility, Best Practices and SEO on desktop platforms. Performance ranged between 98-100% on all pages except the Selected Works page which is very image heavy. While the images have been compressed, it did pull the Performance down to 67%.
 
- The pages of the site achived 100% across the board for Accessibility, Best Practices and SEO on desktop platforms. Performance ranged between 98-100% on all pages except the Selected Works page which is very image heavy. While the images have been compressed, it did pull the Performance down to 67%.
+         For mobile platforms, the SEO fell to 96% with the suggestion that the "tap targets" in the footer section are not appropriately sized. Having tested this on several subjects, I received no feedback that there were any issues when selecting those targets and therefore do not see this as a concern. Performace returned a figure of 65% on the Selected Works section for the same reason stated above, while all other pages corresponded to the results on the desktop platform.
 
- For mobile platforms, the SEO fell to 96% with the suggestion that the "tap targets" in the footer section are not appropriately sized. Having tested this on several subjects, I received no feedback that there were any issues when selecting those targets and therefore do not see this as a concern. Performace returned a figure of 65% on the Selected Works section for the same reason stated above, while all other pages corresponded to the results on the desktop platform.
+         The Accessibility score remained at 100% throughout on both platforms.
 
-THe Accessibility score remained at 100% throughout on both platforms.
+    ![Lighthouse Accessibility test result](assets/images/lighthouse-accessibility-score.webp)
 
 [Back to top](<#contents>)
 
@@ -165,6 +167,10 @@ THe Accessibility score remained at 100% throughout on both platforms.
     4. You will then be in [Github Pages](https://github.com/Robdeseg/HTML-CSS-Portfolio-Project/settings/pages) where you will need to select the *Source*. From the *Branch* dropdown menu under the *Source* heading, choose *Main*.
     ![Selecting Source](assets/images/source-main.webp)
     5. Once you click *Save* the site is deployed and ready to share.
+
+    The live link can be found here:
+
+    https://robdeseg.github.io/HTML-CSS-Portfolio-Project/
 
 * #### To create a clone of the project, use the following steps:
 
@@ -186,7 +192,6 @@ THe Accessibility score remained at 100% throughout on both platforms.
    - [Compressor Pro](https://compressor.io/)
    - [Convertio](https://convertio.co/)
 
-
 [Back to top](<#contents>)
 
 ## Credits & Acknowledgements
@@ -204,6 +209,8 @@ THe Accessibility score remained at 100% throughout on both platforms.
  I used Robin Schreiner's work at pexels.com for an image of a photo gallery for the background of the Exhibition page.
 
  https://www.pexels.com/photo/wooden-bench-2261165/
+
+ The icons in the footer were taken from [Font Awesome](https://fontawesome.com)
 
  And finally, I would also like to thank the tutors, mentors and allumni at Code Institute for their advice and support throughout the development of this website. It has been invaluable.
 
